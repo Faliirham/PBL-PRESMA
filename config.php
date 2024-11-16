@@ -1,10 +1,7 @@
 <?php
-$serverName = array (
-    "SCAREBAT\SQLEXPRESS",
-    "LAPTOP-M7D75T3I\SQLEXPRESS", 
-);
+$serverName = "LAPTOP-M7D75T3I\SQLEXPRESS";
 $database = array(
-    "Database" => "Presma",
+    "Database" => "Sistem_Prestasi",
 );
 
 $conn = sqlsrv_connect($serverName, $database);

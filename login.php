@@ -46,29 +46,33 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style/styleLogin.css">
     <title>Login - Pencatatan Prestasi Mahasiswa</title>
 </head>
 <body>
-    <div class="container">
-        <div class="logo-container">
-            <img src="images/logo1.png" alt="Logo 1" class="logo">
-            <img src="images/logo2.png" alt="Logo 2" class="logo">
+    <div class="background">
+        <div class="overlay">
+            <div class="login-card">
+                <div class="logo-container">
+                    <img src="img/Logo.png" alt="Logo" class="logo">
+                </div>
+                <h2>LOGIN</h2>
+                <p class="subtitle">PENCATATAN PRESTASI MAHASISWA</p>
+                <form action="" method="post">
+                    <input type="text" name="username" placeholder="USERNAME" required>
+                    <input type="password" name="password" placeholder="PASSWORD" required>
+                    <a href="#" class="forgot-password">Lupa Password ?</a>
+                    <button type="submit">LOGIN</button>
+                </form>
+            </div>
         </div>
-        <h2>LOGIN</h2>
-        <p class="subtitle">PENCATATAN PRESTASI MAHASISWA</p>
-        <form action="" method="post">
-            <input type="text" name="username" placeholder="USERNAME" required><br>
-            <input type="password" name="password" placeholder="PASSWORD" required><br>
-            <a href="#" class="forgot-password">Lupa Password?</a><br>
-            <button type="submit">LOGIN</button><br>
-        </form>
+        <footer>
+            <div class="footer-content">
+                <p><strong>Informasi Kontak</strong>: support@polinema.ac.id | (+62) 341-404424</p>
+                <p>Jl. Soekarno-Hatta No. 9 Malang 65141</p>
+            </div>
+        </footer>
     </div>
-    <footer>
-        <p>Informasi Kontak: support@polinema.ac.id (+62) 341-404424</p>
-        <p>Alamat: Politeknik Negeri Malang, Jalan Soekarno-Hatta No.9, Jatimulyo, Kecamatan Lowokwaru Malang, Kode Pos: 65141, Jawa Timur-Indonesia</p>
-    </footer>
 </body>
 </html>
