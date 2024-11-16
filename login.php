@@ -2,7 +2,7 @@
 session_start();
 include 'config.php'; 
 
-if ($_SERVER['REQUEST_METHOD'] === 'POST') {}
+if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     $username = $_POST['username'];
     $password = $_POST['password'];
 
@@ -38,7 +38,6 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {}
     } else {
         echo "<script>alert('Username atau role tidak valid!'); window.location.href='login.php';</script>";
     }
-
 }
 ?>
 

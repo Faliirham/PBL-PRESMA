@@ -1,5 +1,8 @@
 <?php
-$serverName = "SCAREBAT\SQLEXPRESS";
+$serverName = array (
+    "SCAREBAT\SQLEXPRESS",
+    "LAPTOP-M7D75T3I\SQLEXPRESS", 
+);
 $database = array(
     "Database" => "Presma",
 );
