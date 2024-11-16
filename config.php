@@ -1,11 +1,14 @@
 <?php
-$serverName = "LAPTOP-M7D75T3I\SQLEXPRESS";
+$serverName =
+    "LAPTOP-M7D75T3I\SQLEXPRESS";
 $database = array(
-    "Database" => "Sistem_Prestasi",
+    "Database" => "Presma",
 );
 
-$conn = sqlsrv_connect($serverName, $database);
-if ($conn === false) {
-    die(print_r(sqlsrv_errors(), true));
+try {
+    $conn = new PDO("sqlsrv:Server=$serverName;Database=$database");
+    $conn->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
+} catch (PDOException $e) {
+    echo "Koneksi gagal: " . $e->getMessage();
 }
 ?>
