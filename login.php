@@ -1,46 +1,44 @@
 <?php
 session_start();
-include 'config.php'; 
+include 'config.php';
 
 if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     $username = $_POST['username'];
     $password = $_POST['password'];
 
-    // Query untuk mendapatkan user berdasarkan username dengan role admin atau mahasiswa
-    $sql = "SELECT u.idusername, u.role, a.Password AS admin_password, m.Password AS mahasiswa_password
-            FROM username u
-            LEFT JOIN Admin a ON u.Admin_idAdmin = a.idAdmin
-            LEFT JOIN mahasiswa m ON u.mahasiswa_idMahasiswa = m.idMahasiswa
-            WHERE u.username = ? AND (u.role = 1 OR u.role = 2)";
-    $params = array($username);
-    $stmt = sqlsrv_query($conn, $sql, $params);
+    try {
+        $sql = "SELECT u.idusername, u.role, a.Password AS admin_password, m.Password AS mahasiswa_password
+                FROM username u
+                LEFT JOIN Admin a ON u.Admin_idAdmin = a.idAdmin
+                LEFT JOIN mahasiswa m ON u.mahasiswa_idMahasiswa = m.idMahasiswa
+                WHERE u.username = ? AND (u.role = 1 OR u.role = 2)";
 
-    if ($stmt === false) {
-        die(print_r(sqlsrv_errors(), true));
-    }
+        $stmt = $conn->prepare($sql);
+        $stmt->execute([$username]);
 
-    $user = sqlsrv_fetch_array($stmt, SQLSRV_FETCH_ASSOC);
+        $user = $stmt->fetch(PDO::FETCH_ASSOC);
 
-    if ($user) {
-        // Cek password berdasarkan role
-        if (
-            ($user['role'] == 2 && $password === $user['admin_password']) ||
-            ($user['role'] == 1 && $password === $user['mahasiswa_password'])
-        ) {
-            $_SESSION['user_id'] = $user['idusername'];
-            $_SESSION['role'] = $user['role'];
+        if ($user) {
+            if (
+                ($user['role'] == 2 && $password === $user['admin_password']) ||
+                ($user['role'] == 1 && $password === $user['mahasiswa_password'])
+            ) {
+                $_SESSION['user_id'] = $user['idusername'];
+                $_SESSION['role'] = $user['role'];
 
-            header('Location: index.php');
-            exit();
+                header('Location: index.php');
+                exit();
+            } else {
+                echo "<script>alert('Password salah!'); window.location.href='login.php';</script>";
+            }
         } else {
-            echo "<script>alert('Password salah!'); window.location.href='login.php';</script>";
+            echo "<script>alert('Username atau role tidak valid!'); window.location.href='login.php';</script>";
         }
-    } else {
-        echo "<script>alert('Username atau role tidak valid!'); window.location.href='login.php';</script>";
+    } catch (PDOException $e) {
+        echo "Error: " . $e->getMessage();
     }
 }
 ?>
-
 
 <!DOCTYPE html>
 <html lang="en">
