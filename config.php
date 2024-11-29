@@ -1,5 +1,5 @@
 <?php
-$serverName = "SCAREBATS\SQLEXPRESS";
+$serverName = "SCAREBAT\SQLEXPRESS";
 $database = "Presma";
 
 try {

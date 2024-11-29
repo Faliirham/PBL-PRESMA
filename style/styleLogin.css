@@ -105,19 +105,6 @@ button:hover {
     text-decoration: underline;
 }
 
-/* Footer Styling */
-footer {
-    background-color: #001F54;
-    color: #ffffff;
-    padding: 15px;
-    text-align: center;
-    font-size: 12px;
-}
-
-footer .footer-content {
-    line-height: 1.5;
-}
-
 /* Responsive Design */
 @media (max-width: 768px) {
     .login-card {

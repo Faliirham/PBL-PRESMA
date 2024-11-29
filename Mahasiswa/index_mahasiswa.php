@@ -4,14 +4,14 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Pencatatan Prestasi Mahasiswa</title>
-    <link rel="stylesheet" href="style/styleIndexMahasiswa.css">
+    <link rel="stylesheet" href="../style/styleIndexMahasiswa.css">
 </head>
 <body>
     <div class="container">
         <!-- Sidebar -->
         <div class="sidebar">
             <div class="profile">
-                <img src="img/profil.png" alt="Profile" class="profile-img">
+                <img src="../img/profil.png" alt="Profile" class="profile-img">
                 <h3>Alvino Valerian</h3>
                 <p>23410100100</p>
                 <p>D-IV Teknik Informatika</p>
@@ -32,7 +32,7 @@
         <div class="main-content">
             <header class="header">
                 <div class="logo">
-                    <img src="img/logo.png" alt="Logo">
+                    <img src="../img/logo.png" alt="Logo">
                 </div>
                 <h1 class="teks">
                     SIPP<span class="highlight">MA</span>
