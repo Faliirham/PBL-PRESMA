@@ -1,7 +1,6 @@
 <?php
-$serverName =
-    "LAPTOP-M7D75T3I\SQLEXPRESS";
-$database = "Sistem_Prestasi";
+$serverName = "SCAREBATS\SQLEXPRESS";
+$database = "Presma";
 
 try {
     $conn = new PDO("sqlsrv:Server=$serverName;Database=$database");
