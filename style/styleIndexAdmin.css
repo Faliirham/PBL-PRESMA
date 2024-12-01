@@ -70,8 +70,11 @@ footer {
 
 /* Main Content */
 .main-content {
-  width: 85%;
-  margin-left: 20%;
+  width: 80%;
+  margin-top: 100px;
+  margin-bottom: 85px; 
+  margin-left: 25%;
+  margin-right: 7%;
   background: #f8f8f8;
   padding: 20px;
 }
@@ -117,12 +120,16 @@ footer {
   border: none;
   color: white;
   padding: 10px 20px;
-  border-radius: 5px;
+  border-radius: 30px;
   cursor: pointer;
 }
 
 .welcome {
+  
   text-align: center;
-  margin: 80px;
+  margin: 1px;
   color: #333;
+  background-color: white; 
+  padding: 20px;            
+  border-radius: 5px;
 }
