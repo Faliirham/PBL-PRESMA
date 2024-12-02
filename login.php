@@ -11,7 +11,7 @@
         <div class="overlay">
             <div class="login-card">
                 <div class="logo-container">
-                    <img src="img/Logo.png" alt="Logo" class="logo">
+                    <img src="img/Logo2in1.png" alt="Logo" class="logo">
                 </div>
                 <h2>LOGIN</h2>
                 <p class="subtitle">SISTEM PENCATATAN PRESTASI MAHASISWA</p>

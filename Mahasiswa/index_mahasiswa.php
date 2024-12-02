@@ -32,10 +32,10 @@
         <div class="main-content">
             <header class="header">
                 <div class="logo">
-                    <img src="../img/logo.png" alt="Logo">
+                    <img src="../img/logoSIPPMA.png" alt="Logo">
                 </div>
                 <h1 class="teks">
-                    SIPP<span class="highlight">MA</span>
+                    IPP<span class="highlight">MA</span>
                 </h1>
                 <div class="logout">
                     <button>Logout</button>
