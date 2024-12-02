@@ -17,11 +17,21 @@
                 <p>D-IV Teknik Informatika</p>
             </div>
             <nav class="menu">
-                <a href="#" class="menu-item">Beranda</a>
-                <a href="#" class="menu-item">Data Mahasiswa</a>
-                <a href="#" class="menu-item">Input Prestasi</a>
-                <a href="#" class="menu-item">Cetak Prestasi</a>
-                <a href="#" class="menu-item">Bantuan?</a>
+                <a href="index_mahasiswa.php" class="menu-item"> 
+                    <img src="../img/Beranda_Icon.png" alt="Beranda Icon" class="menu-icon">Beranda
+                </a>
+                <a href="#" class="menu-item">
+                    <img src="../img/Profile_Icon.png" alt="profile Icon" class="menu-icon">Profile Mahasiswa
+                </a>
+                <a href="input_prestasi.php" class="menu-item">
+                    <img src="../img/InputAgenda_Icon.png" alt="Input Agenda Icon" class="menu-icon">Input Prestasi
+                </a>
+                <a href="#" class="menu-item">
+                    <img src="../img/Cetak_Icon.png" alt="Leaderboard Icon" class="menu-icon">Cetak Prestasi
+                </a>
+                <a href="#" class="menu-item">
+                    <img src="../img/Help_Icon.png" alt="Validasi Icon" class="menu-icon">Bantuan
+                </a>
             </nav>
             <footer>
                 <p>© polinema.sch.id</p>
@@ -37,6 +47,9 @@
                 <h1 class="teks">
                     IPP<span class="highlight">MA</span>
                 </h1>
+                <div class="bell">
+                    <a href="#"><img src="../img/Notification_Icon.png" alt="Notification"></a>
+                </div>
                 <div class="logout">
                     <button>Logout</button>
                 </div>

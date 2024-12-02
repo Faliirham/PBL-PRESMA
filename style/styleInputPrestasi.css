@@ -54,7 +54,7 @@ body {
     height: 20px;
     width: 20px;
     margin-right: 10px;
-  }
+}
 
 .menu-item:hover {
     background: #1DAC98;
@@ -135,121 +135,78 @@ footer {
     color: #333;
 }
 
-/* Ranking Section */
-.ranking, .agenda {
-    background: white;
-    border-radius: 10px;
-    padding: 20px;
-    margin: 20px auto;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    width: 90%;
-}
-
-.ranking {
-    margin-right: 2%;
-    float: left;
-    width: 50%;
-}
-
-.ranking h3 {
-    background: #e94b35;
+.judul {
+    background-color: #140C5F;
     color: white;
-    text-align: center;
     padding: 10px;
-    border-radius: 5px;
-    margin: 0 0 20px 0;
+    margin: 5px;
+    text-align: left;
+    box-shadow: 0 4px 5px rgba(0, 0, 0, 0.192);
 }
-
-.ranking-item {
-    display: flex;
-    align-items: center;
-    justify-content: flex-start;
-    padding: 10px 15px;
-    border: 1px solid #ddd;
-    border-radius: 5px;
-    margin-bottom: 10px;
-    background: white;
-    transition: box-shadow 0.3s;
-}
-
-.ranking-item:hover {
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-}
-
-.rank-number {
-    font-weight: bold;
-    font-size: 20px;
-    background: #e94b35;
-    color: white;
-    width: 40px;
-    height: 40px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    border-radius: 50%;
-    margin-right: 16px;
-}
-
-.rank-info p {
+.judul h1 {
+    font-size: 24px;
     margin: 0;
-    line-height: 1.5;
-    font-size: 14px;
-    color: black;
 }
-
-.rank-score {
-    font-size: 35px;
-    font-weight: bold;
-    color: rgb(51, 51, 51);
-    padding-left: 240px;
-}
-
-/* Agenda Section */
-.agenda {
-    margin-left: 2%;
-    float: left;
-    width: 35%;
-}
-
-.agenda h3 {
-    background: #e94b35;
-    color: white;
-    text-align: center;
+.sub-header {
+    background-color: #f8f8f8;
     padding: 10px;
-    border-radius: 5px;
-    margin: 0 0 20px 0;
-}
-
-.agenda-item {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 10px 15px;
-    border: 1px solid #ddd;
-    border-radius: 5px;
-    margin-bottom: 10px;
-    background: #f7f7f7;
-    transition: box-shadow 0.3s;
-}
-
-.agenda-item:hover {
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-}
-
-.agenda-item p {
-    margin: 0;
+    text-align: left;
     font-size: 14px;
 }
-
-.agenda-link {
-    background: #2c247d;
+.sub-header span {
+    color: red;
+}
+.button-container button {
+    background-color: #009F58;
     color: white;
-    padding: 5px 10px;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 5px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.26);
+}
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+}
+table, th, td {
+    border: 1px solid #ddd;
+}
+th, td {
+    padding: 10px;
+    text-align: center;
+}
+th {
+    background-color: #f2f2f2;
+}
+.action-buttons a {
+    color: white;
+    padding: 7px 20px;
+    margin: 0 5px;
     border-radius: 5px;
     text-decoration: none;
-    font-size: 14px;
 }
-
-.agenda-link:hover {
-    background: #3b349c;
+.action-icon {
+    height: 18px;
+    width: 18px;
+}
+.edit-button {
+    background-color: #140C5F;
+}
+.delete-button {
+    background-color: #FF2800;
+}
+@media (max-width: 768px) {
+    .container {
+        width: 100%;
+    }
+    .button-container button {
+        width: 100%;
+        margin-bottom: 10px;
+    }
+    table, th, td {
+        font-size: 12px;
+    }
 }
