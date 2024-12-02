@@ -17,12 +17,24 @@
                 <p class="profile-name">TEKNIK INFORMASI</p>
             </div>
             <nav class="menu">
-                <a href="#" class="menu-item">Beranda</a>
-                <a href="#" class="menu-item">Profile</a>
-                <a href="#" class="menu-item">Input Agenda</a>
-                <a href="#" class="menu-item">Leader Board</a>
-                <a href="#" class="menu-item">Validasi Input</a>
-                <a href="#" class="menu-item">Validasi Message</a>
+                <a href="#" class="menu-item"> 
+                    <img src="../img/Beranda_Icon.png" alt="Beranda Icon" class="menu-icon">Beranda
+                </a>
+                <a href="#" class="menu-item">
+                    <img src="../img/Profile_Icon.png" alt="profile Icon" class="menu-icon">Profile
+                </a>
+                <a href="#" class="menu-item">
+                    <img src="../img/InputAgenda_Icon.png" alt="Input Agenda Icon" class="menu-icon">Input Agenda
+                </a>
+                <a href="#" class="menu-item">
+                    <img src="../img/Leaderboard_Icon.png" alt="Leaderboard Icon" class="menu-icon">Leader Board
+                </a>
+                <a href="#" class="menu-item">
+                    <img src="../img/Validasi_Icon.png" alt="Validasi Icon" class="menu-icon">Validasi Input
+                </a>
+                <a href="#" class="menu-item">
+                    <img src="../img/Validasi_Icon.png" alt="Validasi Icon" class="menu-icon">Validasi Message
+                </a>
             </nav>
             <footer>
                 <p>© polinema.sch.id</p>

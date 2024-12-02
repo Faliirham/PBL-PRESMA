@@ -15,7 +15,7 @@ body {
 .sidebar {
   background: #18143D;
   color: white;
-  width: 15%;
+  width: 13%;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -59,8 +59,14 @@ body {
 
 .menu-item:hover {
   background: #1DAC98;
-  padding-left: 10px;
+  padding-left: 15px;
   transition: 0.3s;
+}
+
+.menu-icon {
+  height: 20px;
+  width: 20px;
+  margin-right: 10px;
 }
 
 footer {
@@ -70,7 +76,7 @@ footer {
 
 /* Main Content */
 .main-content {
-  width: 80%;
+  width: 87%;
   margin-top: 100px;
   margin-bottom: 85px; 
   margin-left: 25%;
@@ -85,7 +91,8 @@ footer {
   align-items: center;
   background: #140C5F;
   color: white;
-  padding: 0 10px;
+  padding: 10 20px;
+  height: 80px;
   margin-top: 0;
   position: fixed;
   top: 0;
@@ -95,13 +102,13 @@ footer {
 }
 
 .logo img {
-  height: 30px;
-  margin-left: 20px;
+  height: 70px;
+  margin-left: 80px;
   padding: 0 0px;
 }
 
 .teks {
-  font-size: 30px;
+  font-size: 60px;
   font-weight: bold;
   margin-right: auto;
   color: white;
@@ -119,17 +126,17 @@ footer {
   background: #e94b35;
   border: none;
   color: white;
-  padding: 10px 20px;
+  padding: 5px 11px;
   border-radius: 30px;
   cursor: pointer;
 }
 
 .welcome {
-  
   text-align: center;
-  margin: 1px;
+  margin-top: none;
   color: #333;
-  background-color: white; 
-  padding: 20px;            
-  border-radius: 5px;
+  background: white; 
+  padding: 0px;     
+  margin-left: none;
+  margin-right: none;     
 }
