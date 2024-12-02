@@ -24,7 +24,7 @@
                 <a href="#" class="menu-item">Bantuan?</a>
             </nav>
             <footer>
-                <p>@polinema.sch.id</p>
+                <p>© polinema.sch.id</p>
             </footer>
         </div>
 
