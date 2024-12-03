@@ -53,7 +53,7 @@
     <main class="main-content">
         <div class="welcome">
             <h2>SELAMAT DATANG "Admin"</h2>
-            <div class="container">
+            <div class="validasi-message-container">
                 <div class="title">
                     <h1>Message Validasi</h1>
                 </div>
@@ -73,9 +73,9 @@
                             <td>Lomba PKM KC PIMNAS Tahun 2023</td>
                             <td>Juara 1</td>
                             <td>Nasional</td>
-                            <td>
-                                <button class="btn btn-neutral">Validasi</button>
-                                <button class="btn-icon">👁</button>
+                            <td class="validasi-message-btn">
+                                <button class="validasi-message-btn-validasi">Validasi</button>
+                                <button class="validasi-message-btn-icon">👁</button>
                             </td>
                         </tr>
                         <tr>
@@ -83,9 +83,9 @@
                             <td>Lomba PKM KC PIMNAS Tahun 2023</td>
                             <td>Juara 2</td>
                             <td>Nasional</td>
-                            <td>
-                                <button class="btn btn-danger">Ditolak</button>
-                                <button class="btn-icon">👁</button>
+                            <td class="validasi-message-btn">
+                                <button class="validasi-message-btn-ditolak">Ditolak</button>
+                                <button class="validasi-message-btn-icon">👁</button>
                             </td>
                         </tr>
                         <tr>
@@ -93,9 +93,9 @@
                             <td>Lomba PKM KC PIMNAS Tahun 2023</td>
                             <td>Juara 3</td>
                             <td>Nasional</td>
-                            <td>
-                                <button class="btn btn-success">Diterima</button>
-                                <button class="btn-icon">👁</button>
+                            <td class="validasi-message-btn">
+                                <button class="validasi-message-btn-diterima">Diterima</button>
+                                <button class="validasi-message-btn-icon">👁</button>
                             </td>
                         </tr>
                         <tr>
@@ -104,8 +104,8 @@
                             <td>Harapan 1</td>
                             <td>Nasional</td>
                             <td>
-                                <button class="btn btn-success">Diterima</button>
-                                <button class="btn-icon">👁</button>
+                                <button class="validasi-message-btn-diterima">Diterima</button>
+                                <button class="validasi-message-btn-icon">👁</button>
                             </td>
                         </tr>
                     </tbody>

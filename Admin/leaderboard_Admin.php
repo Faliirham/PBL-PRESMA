@@ -45,72 +45,70 @@
         <div class="logo">
             <img src="../img/logo_SIPPMA.png" alt="Logo">
         </div>
-        <h1 class="site-title">
+        <h1 class="teks">
             IPP<span class="highlight">MA</span>
         </h1>
         <div class="logout">
-            <button class="logout-btn">Logout</button>
+            <button>Logout</button>
         </div>
-    </header> 
+    </header>
 
     <!-- Main Content -->
     <main class="main-content">
-        <div class="container">
-            <h2 class="welcome-message">SELAMAT DATANG "Admin"</h2>
-            <div class="dashboard">
-                <!-- Ranking Section -->
-                <div class="ranking-section">
+        <div class="welcome">
+            <h2>SELAMAT DATANG "Admin"</h2>
+            <div class="leaderboard-content">
+                <div class="leaderboard-ranking">
                     <h3>Ranking</h3>
-                    <div class="ranking-item">
-                        <span class="rank-number">1</span>
-                        <div class="rank-info">
+                    <div class="leaderboard-ranking-item">
+                        <span class="leaderboard-rank-number">1</span>
+                        <div class="leaderboard-rank-info">
                             <p>Alvino Valerian</p>
                             <p>234720221</p>
                             <p>D-IV Teknik Informatika</p>
                         </div>
-                        <span class="rank-score">98</span>
+                        <span class="leaderboard-rank-score">98</span>
                     </div>
-                    <div class="ranking-item">
-                        <span class="rank-number">2</span>
-                        <div class="rank-info">
+                    <div class="leaderboard-ranking-item">
+                        <span class="leaderboard-rank-number">2</span>
+                        <div class="leaderboard-rank-info">
                             <p>Alvino Valerian</p>
                             <p>234720220</p>
                             <p>D-IV Teknik Informatika</p>
                         </div>
-                        <span class="rank-score">95</span>
+                        <span class="leaderboard-rank-score">95</span>
                     </div>
-                    <div class="ranking-item">
-                        <span class="rank-number">3</span>
-                        <div class="rank-info">
+                    <div class="leaderboard-ranking-item">
+                        <span class="leaderboard-rank-number">3</span>
+                        <div class="leaderboard-rank-info">
                             <p>Alvino Valerian</p>
                             <p>234720207</p>
                             <p>D-IV Teknik Informatika</p>
                         </div>
-                        <span class="rank-score">90</span>
+                        <span class="leaderboard-rank-score">90</span>
                     </div>
-                    <div class="ranking-item">
-                        <span class="rank-number">4</span>
-                        <div class="rank-info">
+                    <div class="leaderboard-ranking-item">
+                        <span class="leaderboard-rank-number">4</span>
+                        <div class="leaderboard-rank-info">
                             <p>Alvino Valerian</p>
                             <p>234720204</p>
                             <p>D-IV Teknik Informatika</p>
                         </div>
-                        <span class="rank-score">88</span>
+                        <span class="leaderboard-rank-score">88</span>
                     </div>
                 </div>
 
-                <!-- Agenda Section -->
-                <div class="agenda-section">
+                <div class="leaderboard-agenda">
                     <h3>Agenda Lomba</h3>
-                    <div class="agenda-item">
+                    <div class="leaderboard-agenda-item">
                         <p>Nama Kompetisi</p>
                         <p>22 Feb 2025</p>
-                        <a href="#" class="agenda-link">Link</a>
+                        <a href="#" class="leaderboard-agenda-link">Link</a>
                     </div>
-                    <div class="agenda-item">
+                    <div class="leaderboard-agenda-item">
                         <p>Nama Kompetisi</p>
                         <p>24 Feb 2025</p>
-                        <a href="#" class="agenda-link">Link</a>
+                        <a href="#" class="leaderboard-agenda-link">Link</a>
                     </div>
                 </div>
             </div>

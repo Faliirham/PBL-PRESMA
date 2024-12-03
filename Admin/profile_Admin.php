@@ -61,27 +61,27 @@
                 <div class="profile-content">
                     <div class="profile-picture">
                         <img src="https://via.placeholder.com/100" alt="Profile Picture">
-                        <button class="btn-change">Ubah Foto</button>
+                        <button class="profile-btn-ubah">Ubah Foto</button>
                     </div>
                     <div class="profile-form">
                         <form action="#" method="post">
-                            <div class="form-group">
+                            <div class="profile-form-group">
                                 <label for="nama">Nama</label>
                                 <input type="text" id="nama" value="Halo Admin">
                             </div>
-                            <div class="form-group">
+                            <div class="profile-form-group">
                                 <label for="nip">NIP</label>
                                 <input type="text" id="nip" value="220247063888">
                             </div>
-                            <div class="form-group">
+                            <div class="profile-form-group">
                                 <label for="studi">Studi</label>
                                 <input type="text" id="studi" value="Teknik Informatika">
                             </div>
-                            <div class="form-group">
+                            <div class="profile-form-group">
                                 <label for="email">Email</label>
                                 <input type="email" id="email" value="adminPolinema@gmail.com">
                             </div>
-                            <button type="submit" class="btn-save">Simpan</button>
+                            <button type="submit" class="profile-btn-simpan">Simpan</button>
                         </form>
                     </div>
                 </div>
