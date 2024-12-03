@@ -66,7 +66,7 @@
                     <p><span>*Maksimal Pengeditan 1 hari (lebih dari itu data tidak bisa diubah)</span></p>
                 </div>
                 <div class="button-container">
-                    <button>Tambah Data</button>
+                    <button onclick="window.location.href='form_input_prestasi.php';">Tambah Data</button>
                 </div>
                 <table>
                     <thead>
