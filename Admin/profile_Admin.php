@@ -16,22 +16,23 @@
             <p class="profile-name">TEKNIK INFORMASI</p>
         </div>
         <nav class="menu">
-            <a href="#" class="menu-item"> 
+        <nav class="menu">
+            <a href="index_Admin.php" class="menu-item"> 
                 <img src="../img/Beranda_Icon.png" alt="Beranda Icon" class="menu-icon">Beranda
             </a>
-            <a href="#" class="menu-item">
+            <a href="profile_Admin.php" class="menu-item">
                 <img src="../img/Profile_Icon.png" alt="Profile Icon" class="menu-icon">Profile
             </a>
-            <a href="#" class="menu-item">
+            <a href="InputAgenda_Admin.php" class="menu-item">
                 <img src="../img/InputAgenda_Icon.png" alt="Input Agenda Icon" class="menu-icon">Input Agenda
             </a>
-            <a href="#" class="menu-item">
+            <a href="leaderboard_Admin.php" class="menu-item">
                 <img src="../img/Leaderboard_Icon.png" alt="Leaderboard Icon" class="menu-icon">Leader Board
             </a>
-            <a href="#" class="menu-item">
+            <a href="validasiInput_Admin.php" class="menu-item">
                 <img src="../img/Validasi_Icon.png" alt="Validasi Icon" class="menu-icon">Validasi Input
             </a>
-            <a href="#" class="menu-item">
+            <a href="validasiMessage_Admin.php" class="menu-item">
                 <img src="../img/Validasi_Icon.png" alt="Validasi Icon" class="menu-icon">Validasi Message
             </a>
         </nav>
@@ -39,7 +40,6 @@
             <p>© polinema.sch.id</p>
         </footer>
     </aside>
-
     <!-- Header -->
     <header class="header">
         <div class="logo">
@@ -51,42 +51,42 @@
         <div class="logout">
             <button>Logout</button>
         </div>
-    </header> 
+    </header>
     <!-- Main Content -->
-<main class="main-content">
-    <div class="welcome">
-        <h2>SELAMAT DATANG "Admin"</h2>
-        <div class="profile-container">
-        <h1>Data diri Admin</h1>
-        <div class="profile-content">
-        <div class="profile-picture">
-            <img src="https://via.placeholder.com/100" alt="Profile Picture">
-            <button class="btn-change">Ubah Foto</button>
+    <main class="main-content">
+        <div class="welcome">
+            <h2>SELAMAT DATANG "Admin"</h2>
+            <div class="profile-container">
+                <h1>Data diri Admin</h1>
+                <div class="profile-content">
+                    <div class="profile-picture">
+                        <img src="https://via.placeholder.com/100" alt="Profile Picture">
+                        <button class="btn-change">Ubah Foto</button>
+                    </div>
+                    <div class="profile-form">
+                        <form action="#" method="post">
+                            <div class="form-group">
+                                <label for="nama">Nama</label>
+                                <input type="text" id="nama" value="Halo Admin">
+                            </div>
+                            <div class="form-group">
+                                <label for="nip">NIP</label>
+                                <input type="text" id="nip" value="220247063888">
+                            </div>
+                            <div class="form-group">
+                                <label for="studi">Studi</label>
+                                <input type="text" id="studi" value="Teknik Informatika">
+                            </div>
+                            <div class="form-group">
+                                <label for="email">Email</label>
+                                <input type="email" id="email" value="adminPolinema@gmail.com">
+                            </div>
+                            <button type="submit" class="btn-save">Simpan</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
         </div>
-        <div class="profile-form">
-            <form action="#" method="post">
-            <div class="form-group">
-                <label for="nama">Nama</label>
-                <input type="text" id="nama" value="Halo Admin">
-            </div>
-            <div class="form-group">
-                <label for="nip">NIP</label>
-                <input type="text" id="nip" value="220247063888">
-            </div>
-            <div class="form-group">
-                <label for="studi">Studi</label>
-                <input type="text" id="studi" value="Teknik Informatika">
-            </div>
-            <div class="form-group">
-                <label for="email">Email</label>
-                <input type="email" id="email" value="adminPolinema@gmail.com">
-            </div>
-            <button type="submit" class="btn-save">Simpan</button>
-            </form>
-        </div>
-        </div>
-    </div>
-    </div>
-</main>
+    </main>
 </body>
 </html>

@@ -12,26 +12,26 @@
         <div class="profile">
             <img src="../img/profil.png" alt="Profile" class="profile-img">
             <h3 class="profile-name">Hallo Admin</h3>
-            <p class="profile-name">2341010101010</p>
-            <p class="profile-name">TEKNIK INFORMASI</p>
+            <p class="profile-id">2341010101010</p>
+            <p class="profile-department">TEKNIK INFORMASI</p>
         </div>
         <nav class="menu">
-            <a href="#" class="menu-item"> 
+            <a href="index_Admin.php" class="menu-item"> 
                 <img src="../img/Beranda_Icon.png" alt="Beranda Icon" class="menu-icon">Beranda
             </a>
-            <a href="#" class="menu-item">
+            <a href="profile_Admin.php" class="menu-item">
                 <img src="../img/Profile_Icon.png" alt="Profile Icon" class="menu-icon">Profile
             </a>
-            <a href="#" class="menu-item">
+            <a href="InputAgenda_Admin.php" class="menu-item">
                 <img src="../img/InputAgenda_Icon.png" alt="Input Agenda Icon" class="menu-icon">Input Agenda
             </a>
-            <a href="#" class="menu-item">
+            <a href="leaderboard_Admin.php" class="menu-item">
                 <img src="../img/Leaderboard_Icon.png" alt="Leaderboard Icon" class="menu-icon">Leader Board
             </a>
-            <a href="#" class="menu-item">
+            <a href="validasiInput_Admin.php" class="menu-item">
                 <img src="../img/Validasi_Icon.png" alt="Validasi Icon" class="menu-icon">Validasi Input
             </a>
-            <a href="#" class="menu-item">
+            <a href="validasiMessage_Admin.php" class="menu-item">
                 <img src="../img/Validasi_Icon.png" alt="Validasi Icon" class="menu-icon">Validasi Message
             </a>
         </nav>
@@ -45,20 +45,21 @@
         <div class="logo">
             <img src="../img/logo_SIPPMA.png" alt="Logo">
         </div>
-        <h1 class="teks">
+        <h1 class="site-title">
             IPP<span class="highlight">MA</span>
         </h1>
         <div class="logout">
-            <button>Logout</button>
+            <button class="logout-btn">Logout</button>
         </div>
     </header> 
+
     <!-- Main Content -->
-<main class="main-content">
-    <div class="welcome">
-        <h2>SELAMAT DATANG "Admin"</h2>
-        <div class="card-container">
-            <div class="content">
-                <div class="ranking">
+    <main class="main-content">
+        <div class="container">
+            <h2 class="welcome-message">SELAMAT DATANG "Admin"</h2>
+            <div class="dashboard">
+                <!-- Ranking Section -->
+                <div class="ranking-section">
                     <h3>Ranking</h3>
                     <div class="ranking-item">
                         <span class="rank-number">1</span>
@@ -99,7 +100,7 @@
                 </div>
 
                 <!-- Agenda Section -->
-                <div class="agenda">
+                <div class="agenda-section">
                     <h3>Agenda Lomba</h3>
                     <div class="agenda-item">
                         <p>Nama Kompetisi</p>
@@ -113,9 +114,7 @@
                     </div>
                 </div>
             </div>
-            </div>
         </div>
-    </div>
-</main>
+    </main>
 </body>
 </html>
