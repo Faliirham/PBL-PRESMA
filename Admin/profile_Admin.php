@@ -55,7 +55,6 @@
     <!-- Main Content -->
     <main class="main-content">
         <div class="welcome">
-            <h2>SELAMAT DATANG "Admin"</h2>
             <div class="profile-container">
                 <h1>Data diri Admin</h1>
                 <div class="profile-content">

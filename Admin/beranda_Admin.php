@@ -56,7 +56,7 @@
     <!-- Main Content -->
     <main class="main-content">
         <div class="welcome">
-            <h2>SELAMAT DATANG "Admin"</h2>
+            <h2>SELAMAT DATANG</h2>
             <div class="beranda-card-container">
                 <div class="beranda-content"> 
                     <div class="beranda-card">

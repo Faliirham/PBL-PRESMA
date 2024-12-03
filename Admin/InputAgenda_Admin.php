@@ -56,7 +56,6 @@
     <!-- Main Content -->
     <main class="main-content">
         <div class="welcome">
-            <h2>SELAMAT DATANG "Admin"</h2>
             <div class="input-agenda-container">
                 <div>
                     <h1>Input Agenda</h1>

@@ -54,7 +54,6 @@
     <!-- Main Content -->
     <main class="main-content">
         <div class="welcome">
-            <h2>SELAMAT DATANG "Admin"</h2>
             <div class="validasi-input-container">
                 <div class="title">
                     <h1>Input Prestasi</h1>
