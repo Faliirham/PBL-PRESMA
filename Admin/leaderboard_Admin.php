@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>SIPPMA</title>
-    <link rel="stylesheet" href="../style/styleLeaderboardAdmin.css">
+    <link rel="stylesheet" href="../style/styleAdmin.css">
 </head>
 <body>
     <!-- Sidebar -->
@@ -12,26 +12,26 @@
         <div class="profile">
             <img src="../img/profil.png" alt="Profile" class="profile-img">
             <h3 class="profile-name">Hallo Admin</h3>
-            <p class="profile-name">2341010101010</p>
-            <p class="profile-name">TEKNIK INFORMASI</p>
+            <p class="profile-id">2341010101010</p>
+            <p class="profile-department">TEKNIK INFORMASI</p>
         </div>
         <nav class="menu">
-            <a href="#" class="menu-item"> 
+            <a href="beranda_Admin.php" class="menu-item"> 
                 <img src="../img/Beranda_Icon.png" alt="Beranda Icon" class="menu-icon">Beranda
             </a>
-            <a href="#" class="menu-item">
+            <a href="profile_Admin.php" class="menu-item">
                 <img src="../img/Profile_Icon.png" alt="Profile Icon" class="menu-icon">Profile
             </a>
-            <a href="#" class="menu-item">
+            <a href="inputAgenda_Admin.php" class="menu-item">
                 <img src="../img/InputAgenda_Icon.png" alt="Input Agenda Icon" class="menu-icon">Input Agenda
             </a>
-            <a href="#" class="menu-item">
+            <a href="leaderboard_Admin.php" class="menu-item">
                 <img src="../img/Leaderboard_Icon.png" alt="Leaderboard Icon" class="menu-icon">Leader Board
             </a>
-            <a href="#" class="menu-item">
+            <a href="validasiInput_Admin.php" class="menu-item">
                 <img src="../img/Validasi_Icon.png" alt="Validasi Icon" class="menu-icon">Validasi Input
             </a>
-            <a href="#" class="menu-item">
+            <a href="validasiMessage_Admin.php" class="menu-item">
                 <img src="../img/Validasi_Icon.png" alt="Validasi Icon" class="menu-icon">Validasi Message
             </a>
         </nav>
@@ -51,71 +51,67 @@
         <div class="logout">
             <button>Logout</button>
         </div>
-    </header> 
+    </header>
+
     <!-- Main Content -->
-<main class="main-content">
-    <div class="welcome">
-        <h2>SELAMAT DATANG "Admin"</h2>
-        <div class="card-container">
-            <div class="content">
-                <div class="ranking">
+    <main class="main-content">
+        <div class="welcome">
+            <div class="leaderboard-content">
+                <div class="leaderboard-ranking">
                     <h3>Ranking</h3>
-                    <div class="ranking-item">
-                        <span class="rank-number">1</span>
-                        <div class="rank-info">
+                    <div class="leaderboard-ranking-item">
+                        <span class="leaderboard-rank-number">1</span>
+                        <div class="leaderboard-rank-info">
                             <p>Alvino Valerian</p>
                             <p>234720221</p>
                             <p>D-IV Teknik Informatika</p>
                         </div>
-                        <span class="rank-score">98</span>
+                        <span class="leaderboard-rank-score">98</span>
                     </div>
-                    <div class="ranking-item">
-                        <span class="rank-number">2</span>
-                        <div class="rank-info">
+                    <div class="leaderboard-ranking-item">
+                        <span class="leaderboard-rank-number">2</span>
+                        <div class="leaderboard-rank-info">
                             <p>Alvino Valerian</p>
                             <p>234720220</p>
                             <p>D-IV Teknik Informatika</p>
                         </div>
-                        <span class="rank-score">95</span>
+                        <span class="leaderboard-rank-score">95</span>
                     </div>
-                    <div class="ranking-item">
-                        <span class="rank-number">3</span>
-                        <div class="rank-info">
+                    <div class="leaderboard-ranking-item">
+                        <span class="leaderboard-rank-number">3</span>
+                        <div class="leaderboard-rank-info">
                             <p>Alvino Valerian</p>
                             <p>234720207</p>
                             <p>D-IV Teknik Informatika</p>
                         </div>
-                        <span class="rank-score">90</span>
+                        <span class="leaderboard-rank-score">90</span>
                     </div>
-                    <div class="ranking-item">
-                        <span class="rank-number">4</span>
-                        <div class="rank-info">
+                    <div class="leaderboard-ranking-item">
+                        <span class="leaderboard-rank-number">4</span>
+                        <div class="leaderboard-rank-info">
                             <p>Alvino Valerian</p>
                             <p>234720204</p>
                             <p>D-IV Teknik Informatika</p>
                         </div>
-                        <span class="rank-score">88</span>
+                        <span class="leaderboard-rank-score">88</span>
                     </div>
                 </div>
 
-                <!-- Agenda Section -->
-                <div class="agenda">
+                <div class="leaderboard-agenda">
                     <h3>Agenda Lomba</h3>
-                    <div class="agenda-item">
+                    <div class="leaderboard-agenda-item">
                         <p>Nama Kompetisi</p>
                         <p>22 Feb 2025</p>
-                        <a href="#" class="agenda-link">Link</a>
+                        <a href="#" class="leaderboard-agenda-link">Link</a>
                     </div>
-                    <div class="agenda-item">
+                    <div class="leaderboard-agenda-item">
                         <p>Nama Kompetisi</p>
                         <p>24 Feb 2025</p>
-                        <a href="#" class="agenda-link">Link</a>
+                        <a href="#" class="leaderboard-agenda-link">Link</a>
                     </div>
                 </div>
             </div>
-            </div>
         </div>
-    </div>
-</main>
+    </main>
 </body>
 </html>

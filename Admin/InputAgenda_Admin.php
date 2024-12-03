@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>SIPPMA</title>
-    <link rel="stylesheet" href="../style/styleInputAgendaAdmin.css">
+    <link rel="stylesheet" href="../style/styleAdmin.css">
 </head>
 <body>
     <!-- Sidebar -->
@@ -12,26 +12,26 @@
         <div class="profile">
             <img src="../img/profil.png" alt="Profile" class="profile-img">
             <h3 class="profile-name">Hallo Admin</h3>
-            <p class="profile-name">2341010101010</p>
-            <p class="profile-name">TEKNIK INFORMASI</p>
+            <p class="profile-id">2341010101010</p>
+            <p class="profile-department">TEKNIK INFORMASI</p>
         </div>
         <nav class="menu">
-            <a href="#" class="menu-item"> 
+            <a href="beranda_Admin.php" class="menu-item"> 
                 <img src="../img/Beranda_Icon.png" alt="Beranda Icon" class="menu-icon">Beranda
             </a>
-            <a href="#" class="menu-item">
+            <a href="profile_Admin.php" class="menu-item">
                 <img src="../img/Profile_Icon.png" alt="Profile Icon" class="menu-icon">Profile
             </a>
-            <a href="#" class="menu-item">
+            <a href="inputAgenda_Admin.php" class="menu-item">
                 <img src="../img/InputAgenda_Icon.png" alt="Input Agenda Icon" class="menu-icon">Input Agenda
             </a>
-            <a href="#" class="menu-item">
+            <a href="leaderboard_Admin.php" class="menu-item">
                 <img src="../img/Leaderboard_Icon.png" alt="Leaderboard Icon" class="menu-icon">Leader Board
             </a>
-            <a href="#" class="menu-item">
+            <a href="validasiInput_Admin.php" class="menu-item">
                 <img src="../img/Validasi_Icon.png" alt="Validasi Icon" class="menu-icon">Validasi Input
             </a>
-            <a href="#" class="menu-item">
+            <a href="validasiMessage_Admin.php" class="menu-item">
                 <img src="../img/Validasi_Icon.png" alt="Validasi Icon" class="menu-icon">Validasi Message
             </a>
         </nav>
@@ -51,34 +51,35 @@
         <div class="logout">
             <button>Logout</button>
         </div>
-    </header> 
+    </header>
+
     <!-- Main Content -->
-<main class="main-content">
-    <div class="welcome">
-        <h2>SELAMAT DATANG "Admin"</h2>
-        <div class="container">
-            <div class="title">
-            <h1>Input Agenda</h1>
-            <form action="#" method="post" enctype="multipart/form-data">
-            <div class="form-group">
-                <label for="nama-agenda">Nama Agenda</label>
-                <input type="text" id="nama-agenda" placeholder="Nama Agenda">
+    <main class="main-content">
+        <div class="welcome">
+            <div class="input-agenda-container">
+                <div>
+                    <h1>Input Agenda</h1>
+                    <form class="input-agenda-form" action="#" method="post" enctype="multipart/form-data">
+                        <div class="input-agenda-form-group">
+                            <label for="nama-agenda">Nama Agenda</label>
+                            <input type="text" id="nama-agenda" name="nama-agenda" placeholder="Nama Agenda" required>
+                        </div>
+                        <div class="input-agenda-form-group">
+                            <label for="tanggal-agenda">Tanggal Agenda</label>
+                            <input type="date" id="tanggal-agenda" name="tanggal-agenda" placeholder="DD/MM/YYYY" required>
+                        </div>
+                        <div class="input-agenda-form-group">
+                            <label for="link-agenda">Link Agenda</label>
+                            <input type="text" id="link-agenda" name="link-agenda" placeholder="Link Agenda" required>
+                        </div>
+                        <div class="input-agenda-form-actions">
+                            <button type="reset" class="input-agenda-btn-batal">Batal</button>
+                            <button type="submit" class="input-agenda-btn-unggah">Unggah</button>
+                        </div>
+                    </form>
+                </div>
             </div>
-            <div class="form-group">
-                <label for="tanggal-agenda">Tanggal Agenda</label>
-                <input type="date" id="tanggal-agenda" placeholder="DD/MM/YYYY">
-            </div>
-            <div class="form-group">
-                <label for="link-agenda">Link Agenda</label>
-                <input type="text" id="link-agenda" placeholder="Link Agenda">
-            </div>
-            <div class="form-actions">
-                <button type="reset" class="btn-danger">Batal</button>
-                <button type="submit" class="btn-success">Unggah</button>
-            </div>
-            </form>
         </div>
-    </div>
-</main>
+    </main>
 </body>
 </html>
