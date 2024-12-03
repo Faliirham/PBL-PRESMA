@@ -1,33 +1,37 @@
-use Prestasi_mahasiswa;
 
+CREATE DATABASE Prestasi_mahasiswa;
+GO
+
+use Prestasi_mahasiswa;
+GO
 -- membuat tabel
 CREATE TABLE Prodi (
     id_Prodi INT PRIMARY KEY NOT NULL,
     nama_Prodi VARCHAR(150)
 );
-
+GO
 CREATE TABLE Kategori_prestasi (
     id_Kategori INT PRIMARY KEY NOT NULL,
     nama_kategori VARCHAR(150)
 );
-
+GO
 CREATE TABLE Point (
     id_point INT PRIMARY KEY NOT NULL,
     id_Kategori INT FOREIGN KEY REFERENCES Kategori_prestasi(id_Kategori),
     kategori_point VARCHAR(150),
     jml_point INT
 );
-
+GO
 CREATE TABLE Status_validasi (
     id_status INT PRIMARY KEY NOT NULL,
     status_validasi VARCHAR(50)
 );
-
+GO
 CREATE TABLE Role (
     id_role INT PRIMARY KEY not null,
     role INT, CONSTRAINT chk_role CHECK (role IN (1, 2))
 );
-
+GO
 CREATE TABLE Admin (
     id_admin BIGINT PRIMARY KEY,  
     nama_admin VARCHAR(150),
@@ -36,7 +40,7 @@ CREATE TABLE Admin (
     id_role INT,  
     FOREIGN KEY (id_role) REFERENCES Role(id_role)
 );
-
+GO
 CREATE TABLE Mahasiswa (
     id_mhs BIGINT PRIMARY KEY not null,
     nama_mhs VARCHAR(150),
@@ -46,7 +50,7 @@ CREATE TABLE Mahasiswa (
     Password VARCHAR(15),
     id_role INT FOREIGN KEY REFERENCES Role(id_role)
 );
-
+GO
 CREATE TABLE Prestasi (
     id_prestasi INT PRIMARY KEY not null,
     id_mhs BIGINT FOREIGN KEY REFERENCES Mahasiswa(id_mhs),
@@ -60,7 +64,7 @@ CREATE TABLE Prestasi (
     karya VARBINARY(MAX),
     id_point INT FOREIGN KEY REFERENCES Point(id_point)
 );
-
+GO
 CREATE TABLE Validasi (
     id_validasi INT PRIMARY KEY,
     id_admin BIGINT FOREIGN KEY REFERENCES Admin(id_admin),
@@ -70,7 +74,7 @@ CREATE TABLE Validasi (
     message VARCHAR(255)
 );
 
-
+GO
 CREATE TABLE Agenda (
     id_agenda INT PRIMARY KEY,
     nama_agenda VARCHAR(150),
@@ -78,20 +82,20 @@ CREATE TABLE Agenda (
     id_admin BIGINT FOREIGN KEY REFERENCES Admin(id_admin),
 	tanggal_agenda DATE
 );
-
+GO
 CREATE TABLE Notifikasi (
     id_notifikasi INT PRIMARY KEY,
     id_prestasi INT FOREIGN KEY REFERENCES Prestasi(id_prestasi),
     id_validasi INT FOREIGN KEY REFERENCES Validasi(id_validasi)
 );
-
+GO
 --mengisi tabel
 INSERT INTO Prodi (id_Prodi, nama_Prodi) 
 VALUES 
 (1, 'D-IV TI'),
 (2, 'D-IV SIB'),
 (3, 'D-II PPLS');
-
+GO
 INSERT INTO Kategori_prestasi (id_Kategori, nama_kategori)
 VALUES
 (1, 'Internasional'),
@@ -99,18 +103,18 @@ VALUES
 (3, 'Provinsi'),
 (4, 'Kabupaten / Kota'),
 (5, 'Kampus');
-
+GO
 INSERT INTO Status_validasi (id_status, status_validasi)
 VALUES
 (1, 'Approve'),
 (2, 'Proses'),
 (3, 'Ditolak');
 
-
+GO
 INSERT INTO Role (id_role, role)
 VALUES (1, 1),  -- Mahasiswa
        (2, 2); -- Admin
-
+GO
 INSERT INTO Mahasiswa (id_mhs, nama_mhs, id_prodi, Tahun, email_mhs, Password, id_role)
 VALUES 
 (2341720048, 'Ananda Rahmawati', 1, 2023, 'ananda.rh@email.com', 'Ananda09',  1),
@@ -121,10 +125,10 @@ VALUES
 (2341720053, 'Rina Wijaya', 1, 2024, 'rina.wijaya@email.com', 'rinwir21',  1),
 (2341720054, 'Taufik Hidayat', 3, 2024, 'taufik.hidayat@email.com', 'taufikh7',  1);
 
-
+GO
 INSERT INTO Admin (id_admin, nama_admin, email_admin, password,  id_role)
 VALUES (198012031998031001, 'Admin 1', 'admin1@email.com', 'admin123', 2);
-
+GO
 INSERT INTO Point (id_point, id_Kategori, kategori_point, jml_point)
 VALUES 
 -- Kategori Internasional
@@ -188,7 +192,7 @@ VALUES
   0xAABBCCDDEEFF0011,  
   5),
 
-(5, 2341720052, 'Olimpiade Nasional Matematika dan Ilmu Pengetahuan Alam – Perguruan Tinggi (ONMIPA-PT)', 
+(5, 2341720052, 'Olimpiade Nasional Matematika dan Ilmu Pengetahuan Alam ï¿½ Perguruan Tinggi (ONMIPA-PT)', 
 3, 'Juara Harapan', '2024-07-25', 
   0xA1B2C3D4E5F60708,  
   0x2233445566778899,  
@@ -231,7 +235,7 @@ VALUES
   0x66778899AABBCCDD,  
   0x2233445566778899,  
   20);
-
+GO
 
   INSERT INTO Validasi (id_validasi, id_admin, id_prestasi, tgl_validasi, id_status, message)
 VALUES
@@ -246,7 +250,7 @@ VALUES
 (9, 198012031998031001, 9, '2024-11-09', 1, 'Prestasi disetujui.'),
 (10, 198012031998031001, 10, '2024-11-10', 3, 'Prestasi ditolak. Dokumen foto kegiatan salah, Harap di perbaiki ');
 
-
+GO
 INSERT INTO Agenda (id_agenda, nama_agenda, link, id_admin, tanggal_agenda)
 VALUES 
 (1, 'Workshop Pemrograman', 'https://example.com/workshop-pemrograman', 198012031998031001,'2024-11-01'),
@@ -256,13 +260,13 @@ VALUES
 (5, 'Pameran dan Gembyar Lomba Teknologi Terbaru', 'https://example.com/pameran-teknologi', 198012031998031001,'2024-11-20');
 
 
-
+GO
 CREATE TABLE Rapor_prestasi (
     id_rapor INT PRIMARY KEY,
     id_mahasiswa BIGINT FOREIGN KEY REFERENCES Mahasiswa(id_mhs),
     tgl_cetak DATETIME
 );
-
+GO
 CREATE TABLE Rapor_prestasi_detail (
     id_rapor INT,
     id_prestasi INT,
@@ -270,22 +274,22 @@ CREATE TABLE Rapor_prestasi_detail (
     FOREIGN KEY (id_prestasi) REFERENCES Prestasi(id_prestasi),
     PRIMARY KEY (id_rapor, id_prestasi)
 );
-
+GO
 INSERT INTO Rapor_prestasi (id_rapor, id_mahasiswa, tgl_cetak)
 VALUES (1, 2341720048, '2024-11-15 10:00:00');
 
-
+GO
 INSERT INTO Rapor_prestasi_detail (id_rapor, id_prestasi)
 VALUES
 (1, 1),  
 (1, 9);  
-
+GO
 SELECT rp.id_rapor, rp.id_mahasiswa, p.nama_lomba, p.Juara, p.Tanggal_juara
 FROM Rapor_prestasi rp
 JOIN Rapor_prestasi_detail rpd ON rp.id_rapor = rpd.id_rapor
 JOIN Prestasi p ON rpd.id_prestasi = p.id_prestasi
 WHERE rp.id_rapor = 1;
-
+GO
 INSERT INTO Notifikasi (id_notifikasi, id_prestasi, id_validasi)
 VALUES
 (1, 1, 1),
@@ -298,7 +302,7 @@ VALUES
 (8, 8, 8),
 (9, 9, 9),
 (10, 10, 10);
-
+GO
 
 --Stored Procedure--
 CREATE PROCEDURE RankMahasiswaByPoint
@@ -329,7 +333,7 @@ BEGIN
     ORDER BY 
         TotalPoint DESC;
 END;
-
+GO
 
 	CREATE PROCEDURE GetLoginData
 AS
@@ -348,19 +352,3 @@ BEGIN
         id_role AS role
     FROM admin;
 END;
-
-
---menampilkan--
-select * from Prodi;
-select * from Kategori_prestasi;
-select*from Point;
-select * from Status_validasi;
-select * from Role;
-select * from Admin;
-select * from Mahasiswa;
-select * from Prestasi;
-select * from Validasi;
-select * from Rapor_prestasi;
-select * from Rapor_prestasi_detail;
-select * from Agenda;
-select * from Notifikasi;
