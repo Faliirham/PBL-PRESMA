@@ -60,10 +60,10 @@
                     <thead>
                         <tr>
                             <th>NO</th>
-                            <th>Nama Penghargaan</th>
-                            <th>Juara</th>
-                            <th>Kategori</th>
-                            <th>Validasi</th>
+                            <th>NAMA PENGHARGAAN</th>
+                            <th>JUARA</th>
+                            <th>KATEGORI</th>
+                            <th>VALIDASI</th>
                         </tr>
                     </thead>
                     <tbody>
