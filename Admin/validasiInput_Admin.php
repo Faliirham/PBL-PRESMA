@@ -16,13 +16,13 @@
             <p class="profile-name">TEKNIK INFORMASI</p>
         </div>
         <nav class="menu">
-            <a href="index_Admin.php" class="menu-item"> 
+            <a href="beranda_Admin.php" class="menu-item"> 
                 <img src="../img/Beranda_Icon.png" alt="Beranda Icon" class="menu-icon">Beranda
             </a>
             <a href="profile_Admin.php" class="menu-item">
                 <img src="../img/Profile_Icon.png" alt="Profile Icon" class="menu-icon">Profile
             </a>
-            <a href="InputAgenda_Admin.php" class="menu-item">
+            <a href="inputAgenda_Admin.php" class="menu-item">
                 <img src="../img/InputAgenda_Icon.png" alt="Input Agenda Icon" class="menu-icon">Input Agenda
             </a>
             <a href="leaderboard_Admin.php" class="menu-item">
