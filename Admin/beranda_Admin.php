@@ -57,21 +57,21 @@
     <main class="main-content">
         <div class="welcome">
             <h2>SELAMAT DATANG "Admin"</h2>
-            <div class="card-container">
-                <div class="content">
-                    <div class="card">
+            <div class="beranda-card-container">
+                <div class="beranda-content"> 
+                    <div class="beranda-card">
                         <img src="../img/Foto_InputAgenda.png" alt="Input Agenda Icon">
                         <p>Input Agenda</p>
                     </div>
-                    <div class="card">
+                    <div class="beranda-card">
                         <img src="../img/Foto_Leaderboard.png" alt="Leaderboard Icon">
                         <p>Leader Board</p>
                     </div>
-                    <div class="card">
+                    <div class="beranda-card">
                         <img src="../img/Foto_ValidasiInput.png" alt="Validasi Input Icon">
                         <p>Validasi Input</p>
                     </div>
-                    <div class="card">
+                    <div class="beranda-card">
                         <img src="../img/Foto_ValidasiMessage.png" alt="Validasi Message Icon">
                         <p>Validasi Message</p>
                     </div>

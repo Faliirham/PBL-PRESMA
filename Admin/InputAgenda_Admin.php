@@ -57,10 +57,10 @@
     <main class="main-content">
         <div class="welcome">
             <h2>SELAMAT DATANG "Admin"</h2>
-            <div class="container">
-                <div class="title">
+            <div class="input-agenda-container">
+                <div>
                     <h1>Input Agenda</h1>
-                    <form action="#" method="post" enctype="multipart/form-data">
+                    <form class="input-agenda-form" action="#" method="post" enctype="multipart/form-data">
                         <div class="form-group">
                             <label for="nama-agenda">Nama Agenda</label>
                             <input type="text" id="nama-agenda" name="nama-agenda" placeholder="Nama Agenda" required>
