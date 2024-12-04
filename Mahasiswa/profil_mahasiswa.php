@@ -48,7 +48,7 @@
                     IPP<span class="highlight">MA</span>
                 </h1>
                 <div class="bell">
-                    <a href="#"><img src="../img/Notification_Icon.png" alt="Notification"></a>
+                    <a href="validasiMessage_mahasiswa.php"><img src="../img/Notification_Icon.png" alt="Notification"></a>
                 </div>
                 <div class="logout">
                     <button>Logout</button>
