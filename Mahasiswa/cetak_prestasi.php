@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Pencatatan Prestasi Mahasiswa</title>
-    <link rel="stylesheet" href="../style/styleValidasiMessageMhs.css">
+    <link rel="stylesheet" href="../style/styleCetakPrestasi.css">
 </head>
 <body>
     <div class="container">
@@ -59,7 +59,7 @@
             </section>
             <div class="content">
                 <div class="judul">
-                    <h1>Message Validasi</h1>
+                    <h1>Cetak Bukti</h1>
                 </div>
                 <table>
                     <thead>
@@ -68,7 +68,6 @@
                             <th>Nama Penghargaan</th>
                             <th>Juara</th>
                             <th>Kategori</th>
-                            <th>Validasi</th>
                         </tr>
                     </thead>
                     <tbody>
@@ -77,48 +76,36 @@
                             <td>Lomba PKM KC PIMNAS Tahun 2023</td>
                             <td>Juara 1</td>
                             <td>Nasional</td>
-                            <td class="status">
-                                <p class="ditolak">Ditolak</p>
-                            </td>
                         </tr>
                         <tr>
                             <td>2</td>
                             <td>Lomba PKM KC PIMNAS Tahun 2023</td>
                             <td>Juara 2</td>
                             <td>Nasional</td>
-                            <td class="status">
-                                <p class="diterima">Diterima</p>
-                            </td>
                         </tr>
                         <tr>
                             <td>3</td>
                             <td>Lomba PKM KC PIMNAS Tahun 2023</td>
                             <td>Juara 3</td>
                             <td>Nasional</td>
-                            <td class="status">
-                                <p class="prosses">Prosses</p>
-                            </td>
                         </tr>
                         <tr>
                             <td>4</td>
                             <td>Lomba PKM KC PIMNAS Tahun 2023</td>
                             <td>Harapan 1</td>
                             <td>Nasional</td>
-                            <td class="status">
-                                <p class="diterima">Diterima</p>
-                            </td>
                         </tr>
                         <tr>
                             <td>5</td>
                             <td>Lomba PKM KC PIMNAS Tahun 2023</td>
                             <td>Harapan 2</td>
                             <td>Nasional</td>
-                            <td class="status">
-                                <p class="diterima">Diterima</p>
-                            </td>
                         </tr>
                     </tbody>
                 </table>
+                <div class="btn-cetak">
+                    <button><img src="../img/Cetak_Icon.png" alt="cetak">Cetak</button>
+                </div>
             </div>
         </div>
     </div>
