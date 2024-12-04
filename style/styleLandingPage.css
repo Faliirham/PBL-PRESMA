@@ -1,0 +1,102 @@
+/* Reset dan Pengaturan Dasar */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+  }
+  
+  /* Navbar */
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 2rem;
+    background-color: #2a2a72;
+    color: white;
+  }
+  
+  .navbar .logo {
+    display: flex;
+    align-items: center;
+  }
+  
+  .navbar .logo img {
+    width: 40px;
+    margin-right: 10px;
+  }
+  
+  .navbar nav a {
+    color: white;
+    text-decoration: none;
+    margin-left: 15px;
+  }
+  
+  /* Hero Section */
+  .hero {
+    display: flex;
+    padding: 2rem;
+    background-color: #f4f4f9;
+  }
+  
+  .hero-text {
+    flex: 1;
+    margin-right: 2rem;
+  }
+  
+  .hero-image img {
+    width: 100%;
+    max-width: 400px;
+  }
+  
+  /* Agenda, Features, FAQ Sections */
+  .agenda, 
+  .features, 
+  .faq {
+    padding: 2rem;
+  }
+  
+  .agenda-list, 
+  .features-list {
+    display: flex;
+    gap: 1rem;
+  }
+  
+  .agenda-item, 
+  .feature {
+    flex: 1;
+    background-color: #2a2a72;
+    color: white;
+    padding: 1rem;
+    border-radius: 8px;
+    text-align: center;
+  }
+  
+  .feature h3 {
+    margin-bottom: 10px;
+  }
+  
+  /* FAQ Section */
+  .faq button {
+    display: block;
+    margin: 1rem 0;
+    padding: 1rem;
+    background-color: #2a2a72;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  /* Footer */
+  .footer {
+    text-align: center;
+    background-color: #2a2a72;
+    color: white;
+    padding: 1rem;
+  }
+  
