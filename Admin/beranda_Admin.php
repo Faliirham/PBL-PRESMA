@@ -10,10 +10,10 @@
     <!-- Sidebar -->
     <aside class="sidebar">
         <div class="profile">
-            <img src="../img/profil.png" alt="Profile" class="profile-img">
+            <img src="https://via.placeholder.com/100" alt="Profile" class="profile-img">
             <h3 class="profile-name">Hallo Admin</h3>
-            <p class="profile-id">2341010101010</p>
-            <p class="profile-department">TEKNIK INFORMASI</p>
+            <p class="profile-name">2341010101010</p>
+            <p class="profile-name">TEKNIK INFORMASI</p>
         </div>
         <nav class="menu">
             <a href="beranda_Admin.php" class="menu-item"> 
@@ -56,23 +56,23 @@
     <!-- Main Content -->
     <main class="main-content">
         <div class="welcome">
-            <h2>SELAMAT DATANG</h2>
+            <h2>SELAMAT DATANG "Admin"</h2>
             <div class="beranda-card-container">
                 <div class="beranda-content"> 
                     <div class="beranda-card">
-                        <img href="beranda_Admin.php" src="../img/Foto_InputAgenda.png" alt="Input Agenda Icon">
+                        <img class="beranda-img-1" href="beranda_Admin.php" src="../img/Foto_InputAgenda.png" alt="Input Agenda Icon">
                         <p>Input Agenda</p>
                     </div>
                     <div class="beranda-card">
-                        <img src="../img/Foto_Leaderboard.png" alt="Leaderboard Icon">
+                        <img class="beranda-img-1" src="../img/Foto_Leaderboard.png" alt="Leaderboard Icon">
                         <p>Leader Board</p>
                     </div>
                     <div class="beranda-card">
-                        <img src="../img/Foto_ValidasiInput.png" alt="Validasi Input Icon">
+                        <img class="beranda-img-2" src="../img/Foto_ValidasiInput.png" alt="Validasi Input Icon">
                         <p>Validasi Input</p>
                     </div>
                     <div class="beranda-card">
-                        <img src="../img/Foto_ValidasiMessage.png" alt="Validasi Message Icon">
+                        <img class="beranda-img-2" src="../img/Foto_ValidasiMessage.png" alt="Validasi Message Icon">
                         <p>Validasi Message</p>
                     </div>
                 </div>
