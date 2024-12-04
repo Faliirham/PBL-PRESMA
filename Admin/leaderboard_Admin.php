@@ -56,6 +56,7 @@
     <!-- Main Content -->
     <main class="main-content">
         <div class="welcome">
+        <h2>SELAMAT DATANG "Admin"</h2>
             <div class="leaderboard-content">
                 <div class="leaderboard-ranking">
                     <h3>Ranking</h3>

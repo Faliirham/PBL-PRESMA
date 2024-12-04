@@ -56,9 +56,11 @@
     <!-- Main Content -->
     <main class="main-content">
         <div class="welcome">
-            <div class="input-agenda-container">
-                <div>
-                    <h1>Input Agenda</h1>
+        <h2>SELAMAT DATANG "Admin"</h2>
+            <div class="input-agenda-title">
+                    <h2>Input Agenda</h2>
+                <div class="input-agenda-container">
+                    <div class="input-agenda-content">
                     <form class="input-agenda-form" action="#" method="post" enctype="multipart/form-data">
                         <div class="input-agenda-form-group">
                             <label for="nama-agenda">Nama Agenda</label>
@@ -77,6 +79,7 @@
                             <button type="submit" class="input-agenda-btn-unggah">Unggah</button>
                         </div>
                     </form>
+                    </div>  
                 </div>
             </div>
         </div>

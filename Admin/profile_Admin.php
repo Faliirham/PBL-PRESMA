@@ -53,7 +53,7 @@
     </header>
     <!-- Main Content -->
     <main class="main-content">
-        <div class="welcome">
+        <div>
             <div class="profile-container">
                 <h1>Data diri Admin</h1>
                 <div class="profile-content">
