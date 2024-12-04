@@ -61,7 +61,7 @@
                 <div class="leaderboard-ranking">
                     <h3>Ranking</h3>
                     <div class="leaderboard-ranking-item">
-                        <span class="leaderboard-rank-number">1</span>
+                        <img src="../img/juara1.png" alt="juara1" class="leaderboard-rank-number">
                         <div class="leaderboard-rank-info">
                             <p>Alvino Valerian</p>
                             <p>234720221</p>
@@ -70,7 +70,7 @@
                         <span class="leaderboard-rank-score">98</span>
                     </div>
                     <div class="leaderboard-ranking-item">
-                        <span class="leaderboard-rank-number">2</span>
+                        <img src="../img/juara2.png" alt="juara2" class="leaderboard-rank-number">
                         <div class="leaderboard-rank-info">
                             <p>Alvino Valerian</p>
                             <p>234720220</p>
@@ -79,7 +79,7 @@
                         <span class="leaderboard-rank-score">95</span>
                     </div>
                     <div class="leaderboard-ranking-item">
-                        <span class="leaderboard-rank-number">3</span>
+                        <img src="../img/juara3.png" alt="juara3" class="leaderboard-rank-number">
                         <div class="leaderboard-rank-info">
                             <p>Alvino Valerian</p>
                             <p>234720207</p>
@@ -88,7 +88,7 @@
                         <span class="leaderboard-rank-score">90</span>
                     </div>
                     <div class="leaderboard-ranking-item">
-                        <span class="leaderboard-rank-number">4</span>
+                        <img src="../img/juara4.png" alt="juara4" class="leaderboard-rank-number">
                         <div class="leaderboard-rank-info">
                             <p>Alvino Valerian</p>
                             <p>234720204</p>
@@ -101,13 +101,13 @@
                 <div class="leaderboard-agenda">
                     <h3>Agenda Lomba</h3>
                     <div class="leaderboard-agenda-item">
-                        <p>Nama Kompetisi</p>
-                        <p>22 Feb 2025</p>
+                        <p class="leaderboard-agenda-name">Nama Kompetisi</p>
+                        <p class="leaderboard-agenda-date">22 Feb 2025</p>
                         <a href="#" class="leaderboard-agenda-link">Link</a>
                     </div>
                     <div class="leaderboard-agenda-item">
-                        <p>Nama Kompetisi</p>
-                        <p>24 Feb 2025</p>
+                        <p class="leaderboard-agenda-name">Nama Kompetisi</p>
+                        <p class="leaderboard-agenda-date">24 Feb 2025</p>
                         <a href="#" class="leaderboard-agenda-link">Link</a>
                     </div>
                 </div>
