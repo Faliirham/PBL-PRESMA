@@ -20,7 +20,7 @@
                 <a href="index_mahasiswa.php" class="menu-item"> 
                     <img src="../img/Beranda_Icon.png" alt="Beranda Icon" class="menu-icon">Beranda
                 </a>
-                <a href="#" class="menu-item">
+                <a href="profil_mahasiswa.php" class="menu-item">
                     <img src="../img/Profile_Icon.png" alt="profile Icon" class="menu-icon">Profile Mahasiswa
                 </a>
                 <a href="input_prestasi.php" class="menu-item">
