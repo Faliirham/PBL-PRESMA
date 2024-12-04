@@ -10,12 +10,11 @@
     <!-- Sidebar -->
     <aside class="sidebar">
         <div class="profile">
-            <img src="../img/profil.png" alt="Profile" class="profile-img">
+            <img src="https://via.placeholder.com/100" alt="Profile" class="profile-img">
             <h3 class="profile-name">Hallo Admin</h3>
             <p class="profile-name">2341010101010</p>
             <p class="profile-name">TEKNIK INFORMASI</p>
         </div>
-        <nav class="menu">
         <nav class="menu">
             <a href="beranda_Admin.php" class="menu-item"> 
                 <img src="../img/Beranda_Icon.png" alt="Beranda Icon" class="menu-icon">Beranda
