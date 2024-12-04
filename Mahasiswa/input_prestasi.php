@@ -26,7 +26,7 @@
                 <a href="input_prestasi.php" class="menu-item">
                     <img src="../img/InputAgenda_Icon.png" alt="Input Agenda Icon" class="menu-icon">Input Prestasi
                 </a>
-                <a href="#" class="menu-item">
+                <a href="cetak_prestasi.php" class="menu-item">
                     <img src="../img/Cetak_Icon.png" alt="Leaderboard Icon" class="menu-icon">Cetak Prestasi
                 </a>
                 <a href="#" class="menu-item">
