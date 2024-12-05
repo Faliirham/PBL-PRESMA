@@ -11,7 +11,7 @@
     <!-- Sidebar -->
     <aside class="sidebar">
         <div class="profile">
-            <img src="https://via.placeholder.com/100" alt="Profile" class="profile-img">
+            <img src="../img/admin.jpg" alt="Profile" class="profile-img">
             <h3 class="profile-name">Hallo Admin</h3>
             <p class="profile-name">2341010101010</p>
             <p class="profile-name">TEKNIK INFORMASI</p>
@@ -50,7 +50,7 @@
             IPP<span class="highlight">MA</span>
         </h1>
         <div class="logout">
-            <button>Logout</button>
+        <button onclick="window.location.href='../login.php';">Logout</button>
         </div>
     </header>
 
