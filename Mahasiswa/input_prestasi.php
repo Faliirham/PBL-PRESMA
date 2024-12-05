@@ -51,7 +51,7 @@
                     <a href="validasiMessage_mahasiswa.php"><img src="../img/Notification_Icon.png" alt="Notification"></a>
                 </div>
                 <div class="logout">
-                    <button>Logout</button>
+                    <button onclick="window.location.href='../login.php';">Logout</button>
                 </div>
             </header>
             <section class="welcome">

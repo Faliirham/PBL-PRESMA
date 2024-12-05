@@ -104,7 +104,7 @@
                     </tbody>
                 </table>
                 <div class="btn-cetak">
-                    <button><img src="../img/Cetak_Icon.png" alt="cetak">Cetak</button>
+                    <button  onclick="window.location.href='print_prestasi.php';"><img src="../img/Cetak_Icon.png" alt="cetak">Cetak</button>
                 </div>
             </div>
         </div>
