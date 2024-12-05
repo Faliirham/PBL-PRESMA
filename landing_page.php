@@ -108,21 +108,28 @@
   </section>
 
   <section id="faq" class="faq">
+    <img src="img/OrangTanya.png" alt="tanya">
     <h2>Pertanyaan Tentang SIPPMA</h2>
     <div class="faq-list">
       <button>Apa itu Sistem Pencatatan Prestasi Mahasiswa?</button>
-      <button>Bagaimana alur pencatatan prestasi mahasiswa?</button>
+      <button>Bagaimana alur Sistem Pencatatan Prestasi Mahasiswa?</button>
       <button>Bagaimana cara menjadi leaderboard?</button>
-      <button>Cetak Prestasi Berfungsi untuk apa?</button>
+      <button>Cetak Prestasi berfungsi untuk apa?</button>
     </div>
   </section>
 
   <footer class="footer">
     <section id="contact" class="contact">
+      <img src="img/contact.png" alt="contact">
       <p>Email: support@polinema.ac.id</p>
-      <p>Tel: (+62) 341-404424</p>
+      <p> (+62) 341-404424</p>
+      <img src="img/Logo2in1.png" alt="">
+      <img src="img/maps.png" alt="maps">
+      <p> Politeknik Negeri Malang,  Jalan Soekarno-Hatta No.9,Jatimulyo, 
+        Kecamatan Lowokwaru, Malang, Kode Poss : 65141, Jawa Timur - Indonesia
+      </p>
     </section>
-    <p>© 2024 SIPPMA. All Rights Reserved</p>
+      <p>syarat ketentuan | kelompok 1 Sistem Pencatatan Prestasi Mahasiswa | versi 0.1</p>
   </footer>
 </body>
 </html>
