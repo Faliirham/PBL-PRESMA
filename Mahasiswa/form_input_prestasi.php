@@ -54,7 +54,7 @@
         <div class="main-content">
             <header class="header">
                 <div class="logo">
-                    <img src="../img/logoSIPPMA.png" alt="Logo">
+                    <img src="../img/Logo_SIPPMA.png" alt="Logo">
                 </div>
                 <h1 class="teks">
                     IPP<span class="highlight">MA</span>
@@ -119,13 +119,17 @@
                 </div>
                 <div class="form-group">
                 <label for="tingkat-kompetisi">
-                Tingkat Kompetisi
-                <span style="color: red;">
-                    *
-                </span>
+                    Tingkat Kompetisi
+                    <span style="color: red;">*</span>
                 </label>
-                <input id="tingkat-kompetisi" required="" type="text" placeholder="Tingkat Kompetisi Yang Anda Raih"/>
-                </div>
+                <select id="tingkat-kompetisi" required>
+                    <option value="internasional">Internasional</option>
+                    <option value="nasional">Nasional</option>
+                    <option value="provinsi">Provinsi</option>
+                    <option value="kota_kabupaten">Kota / Kabupaten</option>
+                    <option value="kampus">Kampus</option>
+        </select>
+            </div>
                 <div class="form-group">
                 <label>
                 Upload 4 Bukti file
@@ -187,8 +191,7 @@
                 </div>
                 <div class="form-group file-upload-box">
                 <label for="proposal">
-                        Upload Proposal / Karya (Otional)
-                        <span style="color: red;">*</span>
+                        Upload Proposal / Karya (Optional)
                     </label>
                     <div class="form-upload">
                         <div class="file-info">

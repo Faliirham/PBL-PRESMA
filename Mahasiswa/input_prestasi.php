@@ -43,7 +43,7 @@
         <div class="main-content">
             <header class="header">
                 <div class="logo">
-                    <img src="../img/logoSIPPMA.png" alt="Logo">
+                    <img src="../img/Logo_SIPPMA.png" alt="Logo">
                 </div>
                 <h1 class="teks">
                     IPP<span class="highlight">MA</span>
@@ -63,7 +63,7 @@
                     <h1>Daftar Prestasi</h1>
                 </div>
                 <div class="sub-header">
-                    <p>Daftar Prestasi / Penghargaan yang di terima oleh mahasiswa, seperti juara lomba keahlian, juara loba karya tulis, dan lain-lainnya</p>
+                    <p>Daftar Prestasi / Penghargaan yang di terima oleh mahasiswa, seperti juara lomba keahlian, juara lomba karya tulis, dan lain-lainnya</p>
                     <p><span>*Maksimal Pengeditan 1 hari (lebih dari itu data tidak bisa diubah)</span></p>
                 </div>
                 <div class="button-container">

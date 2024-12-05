@@ -43,7 +43,7 @@
         <div class="main-content">
             <header class="header">
                 <div class="logo">
-                    <img src="../img/logoSIPPMA.png" alt="Logo">
+                    <img src="../img/Logo_SIPPMA.png" alt="Logo">
                 </div>
                 <h1 class="teks">
                     IPP<span class="highlight">MA</span>
