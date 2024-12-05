@@ -30,7 +30,7 @@
                 <img src="../img/Leaderboard_Icon.png" alt="Leaderboard Icon" class="menu-icon">Leader Board
             </a>
             <a href="validasiInput_Admin.php" class="menu-item">
-                <img src="../img/Validasi_Icon.png" alt="Validasi Icon" class="menu-icon">Validasi Input
+            <img src="../img/InputAgenda_Icon.png" alt="Input Prestasi Icon" class="menu-icon">Input Prestasi
             </a>
             <a href="validasiMessage_Admin.php" class="menu-item">
                 <img src="../img/Validasi_Icon.png" alt="Validasi Icon" class="menu-icon">Validasi Message
@@ -62,7 +62,7 @@
                     <thead>
                         <tr>
                             <th>NO</th>
-                            <th>NAMA PENGHARGAAN</th>
+                            <th>NAMA MAHASISWA</th>
                             <th>JUARA</th>
                             <th>KATEGORI</th>
                             <th>VALIDASI</th>
@@ -71,7 +71,7 @@
                     <tbody>
                         <tr>
                             <td>1</td>
-                            <td>Lomba PKM KC PIMNAS Tahun 2023</td>
+                            <td>Alvino Valerian</td>
                             <td>Juara 1</td>
                             <td>Nasional</td>
                             <td class="validasi-message-dropdown">
@@ -85,35 +85,33 @@
                         </tr>
                         <tr>
                             <td>2</td>
-                            <td>Lomba PKM KC PIMNAS Tahun 2023</td>
+                            <td>Ahmad Naufal</td>
                             <td>Juara 2</td>
                             <td>Nasional</td>
-                            <td class="validasi-message-dropdown">
-                            <select class="validasi-dropdown" name="validasiStatus">
-                                <option value="validasi">Validasi</option>
-                                <option value="ditolak">Ditolak</option>
-                                <option value="diterima">Diterima</option>
+                            <td><select class="validasi-dropdown" id="validasi-status" onchange="ubahStatus()">
+                            <option value="default" disabled selected>Validasi</option>
+                            <option value="diterima">Diterima</option>
+                            <option value="ditolak">Ditolak</option>
                             </select>
-                            <button class="validasi-message-btn-icon">👁</button>
+                            <button class="validasi-message-btn-icon" onclick="redirectToValidasi()">👁</button>
                         </td>
                         </tr>
                         <tr>
                             <td>3</td>
-                            <td>Lomba PKM KC PIMNAS Tahun 2023</td>
+                            <td>Billy Maulana</td>
                             <td>Juara 3</td>
                             <td>Nasional</td>
-                            <td class="validasi-message-dropdown">
-                            <select class="validasi-dropdown" name="validasiStatus" onchange="this.setAttribute('value', this.value);">
-                                <option value="validasi">Validasi</option>
-                                <option value="ditolak">Ditolak</option>
-                                <option value="diterima">Diterima</option>
+                            <td><select class="validasi-dropdown" id="validasi-status" onchange="ubahStatus()">
+                            <option value="default" disabled selected>Validasi</option>
+                            <option value="diterima">Diterima</option>
+                            <option value="ditolak">Ditolak</option>
                             </select>
-                            <button class="validasi-message-btn-icon">👁</button>
+                            <button class="validasi-message-btn-icon" onclick="redirectToValidasi()">👁</button>
                         </td>
                         </tr>
                         <tr>
                             <td>4</td>
-                            <td>Lomba PKM KC PIMNAS Tahun 2023</td>
+                            <td>Fali Irham</td>
                             <td>Harapan 1</td>
                             <td>Nasional</td>
                             <td class="validasi-message-dropdown">
@@ -130,5 +128,22 @@
             </div>
         </div>
     </main>
+
+  <script>
+    function ubahStatus() {
+  var dropdown = document.getElementById("validasi-status");
+  var status = dropdown.value;
+
+  dropdown.style.backgroundColor = "#ffffff";  
+  if (status === "ditolak") {
+    dropdown.style.backgroundColor = "#FF2800"; 
+  } else if (status === "diterima") {
+    dropdown.style.backgroundColor = "#01FB37"; 
+  }
+}
+    function redirectToValidasi() {
+  window.location.href = "validasiInput_Admin.php";
+}
+  </script>
 </body>
 </html>

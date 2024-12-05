@@ -30,7 +30,7 @@
                 <img src="../img/Leaderboard_Icon.png" alt="Leaderboard Icon" class="menu-icon">Leader Board
             </a>
             <a href="validasiInput_Admin.php" class="menu-item">
-                <img src="../img/Validasi_Icon.png" alt="Validasi Icon" class="menu-icon">Validasi Input
+                <img src="../img/InputAgenda_Icon.png" alt="Input Prestasi Icon" class="menu-icon">Input Prestasi
             </a>
             <a href="validasiMessage_Admin.php" class="menu-item">
                 <img src="../img/Validasi_Icon.png" alt="Validasi Icon" class="menu-icon">Validasi Message
@@ -76,7 +76,7 @@
                         <a href="validasiInput_Admin.php">
                             <img class="beranda-img-2" src="../img/Foto_ValidasiInput.png" alt="Validasi Input Icon">
                         </a>    
-                        <p>Validasi Input</p>
+                        <p>Input Prestasi</p>
                     </div>
                     <div class="beranda-card">
                         <a href="validasiMessage_Admin.php">

@@ -30,7 +30,7 @@
                 <img src="../img/Leaderboard_Icon.png" alt="Leaderboard Icon" class="menu-icon">Leader Board
             </a>
             <a href="validasiInput_Admin.php" class="menu-item">
-                <img src="../img/Validasi_Icon.png" alt="Validasi Icon" class="menu-icon">Validasi Input
+            <img src="../img/InputAgenda_Icon.png" alt="Input Prestasi Icon" class="menu-icon">Input Prestasi
             </a>
             <a href="validasiMessage_Admin.php" class="menu-item">
                 <img src="../img/Validasi_Icon.png" alt="Validasi Icon" class="menu-icon">Validasi Message
@@ -78,9 +78,14 @@
                         </div>
                         <div class="validasi-input-form-group">
                             <label for="tingkat-kompetisi">Tingkat Kompetisi</label>
-                            <input type="text" id="tingkat-kompetisi" placeholder="Nasional">
+                            <select id="tingkat-kompetisi" placeholder="Pilih Tingkat Kompetisi">
+                                <option value="internasional">Internasional</option>
+                                <option value="nasional">Nasional</option>
+                                <option value="provinsi">Provinsi</option>
+                                <option value="kota_kabupaten">Kota / Kabupaten</option>
+                                <option value="kampus">Kampus</option>
+                            </select>
                         </div>
-
                         <div class="validasi-input-form-group-file">
                         <label for="sertifikat">
                             Upload Sertifikat Lomba
