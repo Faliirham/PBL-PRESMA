@@ -53,10 +53,11 @@
     <!-- Main Content -->
     <main class="main-content">
         <div class="welcome">
-            <div class="validasi-message-container">
-                <div class="title">
-                    <h1>Message Validasi</h1>
+        <h2>SELAMAT DATANG "Admin"</h2>
+            <div class="validasi-message-title">
+                    <h2>Message Validasi</h2>
                 </div>
+            <div class="validasi-message-container">
                 <table>
                     <thead>
                         <tr>
