@@ -9,44 +9,31 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/html2pdf.js/0.9.3/html2pdf.bundle.min.js" ></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
     <script src="js/af.min.js"></script>
-
     <script type="text/javascript">
-        	$(document).ready(function($) 
-	{ 
+    $(document).ready(function($) 
+    { 
+        $(document).on('click', '.btn_print', function(event) 
+        {
+            event.preventDefault();
 
-		$(document).on('click', '.btn_print', function(event) 
-		{
-			event.preventDefault();
+            // Pilih elemen yang akan dicetak
+            var element = document.getElementById('file'); 
 
-			//credit : https://ekoopmans.github.io/html2pdf.js
-			
-			var element = document.getElementById('file'); 
+            // Pengaturan custom untuk pdf
+            var opt = {
+                margin:       0.5,   // Kurangi margin jika diperlukan
+                filename:     'SIPPMA_'+js.AutoCode()+'.pdf',
+                image:        { type: 'jpeg', quality: 2.98 },
+                html2canvas:  { dpi: 300, scale: 3 },  // Menambah kualitas gambar yang dicetak
+                jsPDF:        { unit: 'in', format: 'letter', orientation: 'portrait' } // Ukuran kertas
+            };
 
-			//easy
-			//html2pdf().from(element).save();
+            // Menggunakan html2pdf untuk menyimpan PDF
+            html2pdf().set(opt).from(element).save();
+        });
+    });
+</script>
 
-			//custom file name
-			// html2pdf().set({filename: 'SIPPMA_'+js.AutoCode()+'.pdf'}).from(element).save();
-
-
-			//more custom settings
-			var opt = 
-			{
-			  margin:       1,
-			  filename:     'SIPPMA_'+js.AutoCode()+'.pdf',
-			  image:        { type: 'jpeg', quality: 2.98 },
-			};
-
-			// New Promise-based usage:
-			html2pdf().set(opt).from(element).save();
-
-			 
-		});
-
- 
- 
-	});
-    </script>
 </head>
 <body>
     <div class="container">
