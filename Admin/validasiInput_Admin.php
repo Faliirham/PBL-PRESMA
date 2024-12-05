@@ -166,7 +166,7 @@
                         </div>
 
                         <div class="validasi-input-form-actions">
-                            <button type="reset" class="validasi-input-btn-batal">Batal</button>
+                        <button type="reset" class="input-agenda-btn-batal" onclick="window.location.href='beranda_Admin.php'">Batal</button>
                             <button type="submit" class="validasi-input-btn-unggah">Unggah</button>
                         </div>
                     </form>
