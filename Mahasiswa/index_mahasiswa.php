@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../style/styleIndexMahasiswa.css">
     <title>SIPPMA</title>
-    <link rel="icon" type="image/png" href="../img/logo_SIPPMA.png">
+    <link rel="icon" type="image/png" href="../img/Logo_SIPPMA.png">
 </head>
 <body>
     <div class="container">
@@ -43,7 +43,7 @@
         <div class="main-content">
             <header class="header">
                 <div class="logo">
-                    <img src="../img/logoSIPPMA.png" alt="Logo">
+                    <img src="../img/Logo_SIPPMA.png" alt="Logo">
                 </div>
                 <h1 class="teks">
                     IPP<span class="highlight">MA</span>
@@ -61,43 +61,43 @@
             <div class="content">
                 <!-- Ranking Section -->
                 <div class="ranking">
-                    <h3>Ranking</h3>
-                    <div class="ranking-item">
-                        <span class="rank-number">1</span>
-                        <div class="rank-info">
-                            <p>Alvino Valerian</p>
-                            <p>234720221</p>
-                            <p>D-IV Teknik Informatika</p>
-                        </div>
-                        <span class="rank-score">98</span>
+                <h3>Ranking</h3>
+                <div class="ranking-item">
+                    <img src="../img/juara1.png" alt="juara1" class="rank-number">
+                    <div class="rank-info">
+                    <p>Alvino Valerian</p>
+                    <p>234720221</p>
+                    <p>D-IV Teknik Informatika</p>
                     </div>
-                    <div class="ranking-item">
-                        <span class="rank-number">2</span>
-                        <div class="rank-info">
-                            <p>Alvino Valerian</p>
-                            <p>234720220</p>
-                            <p>D-IV Teknik Informatika</p>
-                        </div>
-                        <span class="rank-score">95</span>
+                    <span class="rank-score">98</span>
+                </div>
+                <div class="ranking-item">
+                    <img src="../img/juara2.png" alt="juara2" class="rank-number">
+                    <div class="rank-info">
+                    <p>Alvino Valerian</p>
+                    <p>234720220</p>
+                    <p>D-IV Teknik Informatika</p>
                     </div>
-                    <div class="ranking-item">
-                        <span class="rank-number">3</span>
-                        <div class="rank-info">
-                            <p>Alvino Valerian</p>
-                            <p>234720207</p>
-                            <p>D-IV Teknik Informatika</p>
-                        </div>
-                        <span class="rank-score">90</span>
+                    <span class="rank-score">95</span>
+                </div>
+                <div class="ranking-item">
+                    <img src="../img/juara3.png" alt="juara3" class="rank-number">
+                    <div class="rank-info">
+                    <p>Alvino Valerian</p>
+                    <p>234720207</p>
+                    <p>D-IV Teknik Informatika</p>
                     </div>
-                    <div class="ranking-item">
-                        <span class="rank-number">4</span>
-                        <div class="rank-info">
-                            <p>Alvino Valerian</p>
-                            <p>234720204</p>
-                            <p>D-IV Teknik Informatika</p>
-                        </div>
-                        <span class="rank-score">88</span>
+                    <span class="rank-score">90</span>
+                </div>
+                <div class="ranking-item">
+                    <img src="../img/juara4.png" alt="juara4" class="rank-number">
+                    <div class="rank-info">
+                    <p>Alvino Valerian</p>
+                    <p>234720204</p>
+                    <p>D-IV Teknik Informatika</p>
                     </div>
+                    <span class="rank-score">88</span>
+                </div>
                 </div>
 
                 <!-- Agenda Section -->
