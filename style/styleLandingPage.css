@@ -13,16 +13,16 @@ a {
 }
 
 button {
-  background-color: #FF4500;
+  background-color: #E03616;
   color: #fff;
   border: none;
   padding: 10px 20px;
-  border-radius: 5px;
+  border-radius: 20px;
   cursor: pointer;
 }
 
 button:hover {
-  background-color: #e03d00;
+  background-color: #9e340d;
 }
 
 .navbar {
@@ -35,16 +35,7 @@ button:hover {
 }
 
 .navbar .logo img {
-  width: 50px;
-}
-
-.navbar .teks {
-  font-size: 1.5rem;
-  font-weight: bold;
-}
-
-.navbar .teks .highlight {
-  color: #F6C51C;
+  width: 250px;
 }
 
 .navbar nav a {

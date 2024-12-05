@@ -10,11 +10,8 @@
 <body>
 <header class="navbar">
     <div class="logo">
-        <img src="img/logo_SIPPMA.png" alt="Logo">
+        <img src="img/LogoTeks.png" alt="Logo">
     </div>
-    <h1 class="teks">
-        IPP<span class="highlight">MA</span>
-    </h1>
     <nav>
         <a href="#home">Beranda</a>
         <a href="#features">Fitur</a>
