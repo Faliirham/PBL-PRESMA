@@ -80,7 +80,7 @@ body {
 
 footer {
   text-align: center;
-  font-size: 12px;
+  font-size: 14px;
 }
 
 .main-content {
@@ -132,7 +132,7 @@ footer {
 }
 
 .logout button {
-  background: #e94b35;
+  background: #E03616;
   border: none;
   color: white;
   padding: 5px 11px;
@@ -222,10 +222,10 @@ footer {
   background: #fff;
   padding: 20px 30px;
   border-radius: 10px;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
 }
 .input-agenda-title h2 {
-  background-color: #2c2273;
+  background-color: #140C5F;
   color: white;
   padding: 5px;
   margin: 0px;
@@ -263,7 +263,7 @@ footer {
   border: 1px solid #ddd;
   border-radius: 20px;
   font-size: 14px;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
 }
 
 .input-agenda-form textarea {
@@ -292,12 +292,12 @@ footer {
 }
 
 .input-agenda-btn-batal {
-  background-color: #e74c3c;
+  background-color: #E03616;
   color: white;
 }
 
 .input-agenda-btn-unggah {
-  background-color: #2ecc71;
+  background-color: #009F58;
   color: white;
 }
 
@@ -329,7 +329,7 @@ footer {
 }
 
 .leaderboard-ranking h3 {
-  background: #e94b35;
+  background: #E03616;
   color: white;
   text-align: center;
   padding: 10px;
@@ -343,19 +343,20 @@ footer {
   justify-content: flex-start;
   padding: 10px 15px;
   border: 1px solid #ddd;
-  border-radius: 5px;
+  border-radius: 15px;
   margin-bottom: 10px;
   background: white;
   transition: box-shadow 0.3s;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
 
 .leaderboard-ranking-item:hover {
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
 }
 
 .leaderboard-rank-number {
-  width: 40px;
-  height: 40px;
+  width: 35px;
+  height: 50px;
   justify-content: center;
   margin-right: 16px;
 }
@@ -363,16 +364,22 @@ footer {
 .leaderboard-rank-info p {
   margin: 0;
   line-height: 1.5;
-  font-size: 14px;
+  font-size: 13px;
   color: black;
   text-align: left;
+  font-weight: bold;
 }
 
 .leaderboard-rank-score {
-  font-size: 35px;
+  font-size: 40px;
   font-weight: bold;
-  color: rgb(51, 51, 51);
+  color: white;
   padding-left: 300px;
+  text-shadow: 
+    1px 1px 0 gray, 
+    -1px 1px 0 gray, 
+    1px -1px 0 gray, 
+    -1px -1px 0 gray;
 }
 
 .leaderboard-agenda {
@@ -380,7 +387,7 @@ footer {
 }
 
 .leaderboard-agenda h3 {
-  background: #e94b35;
+  background: #E03616;
   color: white;
   text-align: center;
   padding: 10px;
@@ -392,7 +399,7 @@ footer {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
-  border: 1px solid #ddd;
+  border: 1px solid gray;
   border-radius: 5px;
   margin-bottom: 10px;
   background: #f7f7f7;
@@ -402,17 +409,21 @@ footer {
 }
 
 .leaderboard-agenda-name {
-  font-weight: bold;
   font-size: 16px;
   margin: 0;
 }
 
-.leaderboard-agenda-name .leaderboard-agenda-date {
-  font-size: 14px;
+.leaderboard-agenda-name {
+  font-size: 16px;
+}
+
+.leaderboard-agenda-date {
+  font-size: 12px;
+  margin: 0;
 }
 
 .leaderboard-agenda-link {
-  background: #2c247d;
+  background: #0033FF;
   color: white;
   padding: 5px 10px;
   border-radius: 5px;
@@ -527,7 +538,7 @@ footer {
   bottom: -60px;
   right: 10px;
   display: block;
-  background-color: #2ecc71;
+  background-color: #009F58;
   color: white;
   padding: 10px 20px;
   border: none;
@@ -542,7 +553,7 @@ footer {
 
 /* ========================== Validasi Input Admin Styles ========================== */
 .validasi-input-title h2 {
-  background-color: #2c2273;
+  background-color: #140C5F;
   color: white;
   padding: 5px;
   margin: 0;
@@ -568,9 +579,9 @@ footer {
   align-items: center;
   justify-content: space-between;
   margin-bottom: 15px;
-  border: 1px solid #ddd;
+  border: 1px solid gray;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-  padding: 20px;
+  padding: 5px;
   border-radius: 20px;
 }
 
@@ -593,7 +604,7 @@ footer {
 .validasi-input-container input, textarea {
   width: 70%;
   padding: 10px;
-  border: 1px solid #ddd;
+  border: 1px solid gray;
   border-radius: 20px;
   font-size: 14px;
 }
@@ -604,27 +615,45 @@ footer {
 }
 
 .validasi-input-container input[type="file"] {
-  margin-top: 0px;
-  margin-right: 20px;
-  font-size: 10px;
-  width: 170px;
-  height: 10px;
-  background-color: #28a745;
-  color: white;
-  border: none;
-  border-radius: 20px;
-  padding-top: 0px;
-  padding-bottom: 6px;
-  order: 3;
-  cursor: pointer;
+  flex: 1;
+  padding: 2px;
 }
 
-.validasi-input-file-info {
+.validasi-input-container .file-info span {
   font-size: 12px;
-  color: #555;
-  margin-top: 5px;
+  color: #666;
+}
+
+.validasi-input-container .file-info button {
+  background-color: #1DAC98;
+  border: none;
+  padding: 5px 10px;
+  color: white;
+  cursor: pointer;
+  border-radius: 10px;
+  width: 90px;
+}
+
+.validasi-input-container .file-info button:hover {
+  background-color: #00b89c;
+}
+
+.validasi-input-container .file-info .file-name {
+  background-color: #D3D3D3;
+  padding: 2px;
+  padding-left: 10px;
+  padding-right: 10px;
+  border-radius: 10px;
+  color: black;
+  margin-left: -10px;
+  margin-right: -10px;
+}
+
+.note {
+  font-size: 10px;
+  color: #8f8f8f;
   text-align: right;
-  margin-left: 10px;
+  padding-right: 5px;
 }
 
 .validasi-input-form-actions {
@@ -643,12 +672,12 @@ footer {
 }
 
 .validasi-input-btn-batal {
-  background-color: #e74c3c;
+  background-color: #E03616;
   color: white;
 }
 
 .validasi-input-btn-unggah {
-  background-color: #2ecc71;
+  background-color: #009F58;
   color: white;
 }
 

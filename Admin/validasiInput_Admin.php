@@ -81,29 +81,79 @@
                             <input type="text" id="tingkat-kompetisi" placeholder="Nasional">
                         </div>
 
+                        <div class="validasi-input-form-group-file">
+                        <label for="sertifikat">
+                            Upload Sertifikat Lomba
+                        </label>
+                        <div class="form-upload">
+                            <div class="file-info">
+                                <span class="file-name" id="sertifikat-name">Tidak ada file yang dipilih</span>
+                                <button onclick="triggerFileInput('sertifikat')" type="button">
+                                    Pilih File
+                                </button>
+                            </div>
+                            <input id="sertifikat" type="file" onchange="updateFileName('sertifikat', 'sertifikat-name')" required style="display: none;" />
+                            <div class="note">
+                                <p>Max 2 MB | File berupa format PDF / IMG</p>
+                            </div>
+                            </div>
+                        </div>
+                        <div class="validasi-input-form-group-file">
+                            <label for="foto">
+                                Upload Foto Kegiatan
+                            </label>
+                            <div class="form-upload">
+                                <div class="file-info">
+                                    <span class="file-name" id="foto-name">Tidak ada file yang dipilih</span>
+                                    <button onclick="triggerFileInput('foto')" type="button">
+                                        Pilih File
+                                    </button>
+                                </div>
+                                <input id="foto" type="file" onchange="updateFileName('foto', 'foto-name')" required style="display: none;" />
+                                <div class="note">
+                                    <p>Max 2 MB | File berupa format PDF / IMG</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="validasi-input-form-group-file">
+                            <label for="surat">
+                                Upload Surat Tugas
+                            </label>
+                            <div class="form-upload">
+                                <div class="file-info">
+                                    <span class="file-name" id="surat-name">Tidak ada file yang dipilih</span>
+                                    <button onclick="triggerFileInput('surat')" type="button">
+                                        Pilih File
+                                    </button>
+                                </div>
+                                    <input id="surat" type="file" onchange="updateFileName('surat', 'surat-name')" required style="display: none;" />
+                                    <div class="note">
+                                        <p>Max 2 MB | File berupa format PDF / IMG</p>
+                                    </div>
+                            </div>
+                        </div>
+                        <div class="validasi-input-form-group-file">
+                            <label for="proposal">
+                                Upload Proposal/Karya
+                            </label>
+                        <div class="form-upload">
+                            <div class="file-info">
+                                <span class="file-name" id="proposal-name">Tidak ada file yang dipilih</span>
+                                <button onclick="triggerFileInput('proposal')" type="button">
+                                    Pilih File
+                                </button>
+                            </div>
+                                <input id="proposal" type="file" onchange="updateFileName('proposal', 'proposal-name')" required style="display: none;" />
+                                <div class="note">
+                                    <p>Max 2 MB | File berupa format PDF / IMG</p>
+                                </div>
+                            </div>
+                        </div>
                         <div class="validasi-input-form-group">
-                            <label for="bukti-file">Upload 4 Bukti File</label>
-                        </div>
-
-                        <div class="validasi-input-form-group-file">
-                            <label for="sertifikat">Upload Sertifikat Lomba</label>
-                            <input type="file" id="sertifikat">
-                            <span class="validasi-input-file-info">Max 2 MB | File berupa format PDF / IMG</span>
-                        </div>
-                        <div class="validasi-input-form-group-file">
-                            <label for="foto">Upload Foto Kegiatan</label>
-                            <input type="file" id="foto">
-                            <span class="validasi-input-file-info">Max 2 MB | File berupa format PDF / IMG</span>
-                        </div>
-                        <div class="validasi-input-form-group-file">
-                            <label for="surat">Upload Surat Tugas</label>
-                            <input type="file" id="surat">
-                            <span class="validasi-input-file-info">Max 2 MB | File berupa format PDF / IMG</span>
-                        </div>
-                        <div class="validasi-input-form-group-file">
-                            <label for="proposal">Upload Proposal/Karya</label>
-                            <input type="file" id="proposal">
-                            <span class="validasi-input-file-info">Max 2 MB | File berupa format PDF / IMG</span>
+                            <label for="point-sertifikat">
+                                Point Sertifikat
+                            </label>
+                            <input type="text" id="point-sertifikat" placeholder="Point Sertifikat">
                         </div>
                         <div class="validasi-input-form-group">
                             <label for="point-sertifikat">Point Sertifikat</label>

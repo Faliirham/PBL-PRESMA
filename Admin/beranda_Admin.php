@@ -61,19 +61,27 @@
             <div class="beranda-card-container">
                 <div class="beranda-content"> 
                     <div class="beranda-card">
-                        <img class="beranda-img-1" href="beranda_Admin.php" src="../img/Foto_InputAgenda.png" alt="Input Agenda Icon">
+                        <a href="inputAgenda_Admin.php">
+                            <img class="beranda-img-1" src="../img/Foto_InputAgenda.png" alt="Input Agenda Icon">
+                        </a>
                         <p>Input Agenda</p>
                     </div>
                     <div class="beranda-card">
-                        <img class="beranda-img-1" src="../img/Foto_Leaderboard.png" alt="Leaderboard Icon">
+                        <a href="leaderboard_Admin.php">
+                            <img class="beranda-img-1" src="../img/Foto_Leaderboard.png" alt="Leaderboard Icon">
+                        </a>
                         <p>Leader Board</p>
                     </div>
                     <div class="beranda-card">
-                        <img class="beranda-img-2" src="../img/Foto_ValidasiInput.png" alt="Validasi Input Icon">
+                        <a href="validasiInput_Admin.php">
+                            <img class="beranda-img-2" src="../img/Foto_ValidasiInput.png" alt="Validasi Input Icon">
+                        </a>    
                         <p>Validasi Input</p>
                     </div>
                     <div class="beranda-card">
-                        <img class="beranda-img-2" src="../img/Foto_ValidasiMessage.png" alt="Validasi Message Icon">
+                        <a href="validasiMessage_Admin.php">
+                            <img class="beranda-img-2" src="../img/Foto_ValidasiMessage.png" alt="Validasi Message Icon">
+                        </a>
                         <p>Validasi Message</p>
                     </div>
                 </div>
