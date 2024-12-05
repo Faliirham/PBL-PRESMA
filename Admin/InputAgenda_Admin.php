@@ -76,7 +76,7 @@
                             <input type="text" id="link-agenda" name="link-agenda" placeholder="Link Agenda" required>
                         </div>
                         <div class="input-agenda-form-actions">
-                            <button type="reset" class="input-agenda-btn-batal">Batal</button>
+                        <button type="reset" class="input-agenda-btn-batal" onclick="window.location.href='beranda_Admin.php'">Batal</button>
                             <button type="submit" class="input-agenda-btn-unggah">Unggah</button>
                         </div>
                     </form>
