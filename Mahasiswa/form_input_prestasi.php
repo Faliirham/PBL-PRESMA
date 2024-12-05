@@ -3,8 +3,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Pencatatan Prestasi Mahasiswa</title>
     <link rel="stylesheet" href="../style/styleFormInput.css">
+    <title>SIPPMA</title>
+    <link rel="icon" type="image/png" href="../img/logo_SIPPMA.png">
     <script>
     function triggerFileInput(id) {
                 document.getElementById(id).click();
