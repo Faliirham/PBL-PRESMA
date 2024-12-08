@@ -20,7 +20,7 @@
                     <input type="text" name="username" placeholder="USERNAME" required>
                     <input type="password" name="password" placeholder="PASSWORD" required>
                     <a href="forgot.php" class="forgot-password">Forgot Password ?</a>
-                    <button type="submit">LOGIN</button>
+                    <button type="submit"><a href="Mahasiswa/index_mahasiswa.php">LOGIN</a></button>
                 </form>
             </div>
         </div>
