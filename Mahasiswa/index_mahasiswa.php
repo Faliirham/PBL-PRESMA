@@ -30,7 +30,7 @@
                 <a href="cetak_prestasi.php" class="menu-item">
                     <img src="../img/Cetak_Icon.png" alt="Leaderboard Icon" class="menu-icon">Cetak Prestasi
                 </a>
-                <a href="#" class="menu-item">
+                <a href="bantuan.php" class="menu-item">
                     <img src="../img/Help_Icon.png" alt="Validasi Icon" class="menu-icon">Bantuan
                 </a>
             </nav>
