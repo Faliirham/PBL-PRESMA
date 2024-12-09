@@ -14,7 +14,7 @@
     </div>
     <div>
         <button type="submit">
-            <a href="login.php">Logout</a>
+            <a href="../login.php">Logout</a>
         </button>
     </div>
 </header>
@@ -63,7 +63,7 @@
   <section class="agenda">
     <div class="agenda-header">
       <h2>Agenda Lomba Mahasiswa</h2>
-      <button class="tambah-data"><a type="submit">Tambah Data</a></button>
+      <button class="tambah-data">Tambah Data</button>
     </div>
     <div class="agenda-list">
       <div class="agenda-item">
@@ -126,54 +126,6 @@
         </div>
         <a href="#">Link</a>
       </div>
-      <div class="agenda-item">
-        <div class="edit-delete-icons">
-          <img class="edit-icon" src="../img/Edit_icon.png" alt="edit">
-          <img class="delete-icon" src="../img/Delete_icon.png" alt="delete">
-        </div>
-        <h3>Nama Kompetisi</h3>
-        <div class="agenda-item-content">
-          <img class="time-icon" src="../img/time.png" alt="time">
-          <p>22 November 2024</p>
-        </div>
-        <a href="#">Link</a>
-      </div>
-      <div class="agenda-item">
-        <div class="edit-delete-icons">
-          <img class="edit-icon" src="../img/Edit_icon.png" alt="edit">
-          <img class="delete-icon" src="../img/Delete_icon.png" alt="delete">
-        </div>
-        <h3>Nama Kompetisi</h3>
-        <div class="agenda-item-content">
-          <img class="time-icon" src="../img/time.png" alt="time">
-          <p>22 November 2024</p>
-        </div>
-        <a href="#">Link</a>
-      </div>
-      <div class="agenda-item">
-        <div class="edit-delete-icons">
-          <img class="edit-icon" src="../img/Edit_icon.png" alt="edit">
-          <img class="delete-icon" src="../img/Delete_icon.png" alt="delete">
-        </div>
-        <h3>Nama Kompetisi</h3>
-        <div class="agenda-item-content">
-          <img class="time-icon" src="../img/time.png" alt="time">
-          <p>22 November 2024</p>
-        </div>
-        <a href="#">Link</a>
-      </div>
-        <div class="agenda-item">
-          <div class="edit-delete-icons">
-            <img class="edit-icon" src="../img/Edit_icon.png" alt="edit">
-            <img class="delete-icon" src="../img/Delete_icon.png" alt="delete">
-          </div>
-          <h3>Nama Kompetisi</h3>
-          <div class="agenda-item-content">
-            <img class="time-icon" src="../img/time.png" alt="time">
-            <p>22 November 2024</p>
-          </div>
-          <a href="#">Link</a>
-        </div>
     </div>
   </section>
 
@@ -239,5 +191,46 @@
     </section>
       <p>syarat ketentuan | kelompok 1 Sistem Pencatatan Prestasi Mahasiswa | versi 0.1</p>
   </footer>
+  <div id="popupModal" class="popup-modal">
+  <div class="popup-content">
+    <span class="close-btn">&times;</span>
+    <h2>Tambah Data</h2>
+    <form>
+      <label for="namaKompetisi">Nama Kompetisi:</label>
+      <input type="text" id="namaKompetisi" name="namaKompetisi" required>
+      <label for="tanggal">Tanggal:</label>
+      <input type="date" id="tanggal" name="tanggal" required>
+      <label for="link">Link:</label>
+      <input type="url" id="link" name="link">
+      <button type="submit">Simpan</button>
+    </form>
+  </div>
+</div>
+
+
+<script>
+  // Ambil elemen-elemen
+  const modal = document.getElementById("popupModal");
+  const tambahDataBtn = document.querySelector(".tambah-data");
+  const closeBtn = document.querySelector(".close-btn");
+
+  // Tampilkan modal saat tombol "Tambah Data" ditekan
+  tambahDataBtn.addEventListener("click", (e) => {
+    e.preventDefault(); // Mencegah aksi default tombol
+    modal.style.display = "block";
+  });
+
+  // Tutup modal saat tombol close ditekan
+  closeBtn.addEventListener("click", () => {
+    modal.style.display = "none";
+  });
+
+  // Tutup modal saat klik di luar modal
+  window.addEventListener("click", (e) => {
+    if (e.target === modal) {
+      modal.style.display = "none";
+    }
+  });
+</script>
 </body>
 </html>
