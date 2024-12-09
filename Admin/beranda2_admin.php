@@ -191,18 +191,26 @@
     </section>
       <p>syarat ketentuan | kelompok 1 Sistem Pencatatan Prestasi Mahasiswa | versi 0.1</p>
   </footer>
+  
   <div id="popupModal" class="popup-modal">
   <div class="popup-content">
     <span class="close-btn">&times;</span>
-    <h2>Tambah Data</h2>
-    <form>
-      <label for="namaKompetisi">Nama Kompetisi:</label>
-      <input type="text" id="namaKompetisi" name="namaKompetisi" required>
-      <label for="tanggal">Tanggal:</label>
-      <input type="date" id="tanggal" name="tanggal" required>
-      <label for="link">Link:</label>
-      <input type="url" id="link" name="link">
-      <button type="submit">Simpan</button>
+    <form class="input-agenda-form" action="#" method="post" enctype="multipart/form-data">
+      <div class="input-agenda-form-group">
+          <label for="nama-agenda">Nama Agenda</label>
+          <input type="text" id="nama-agenda" name="nama-agenda" placeholder="Nama Agenda" required>
+      </div>
+      <div class="input-agenda-form-group">
+          <label for="tanggal-agenda">Tanggal Agenda</label>
+          <input type="date" id="tanggal-agenda" name="tanggal-agenda" placeholder="DD/MM/YYYY" required>
+      </div>
+      <div class="input-agenda-form-group">
+          <label for="link-agenda">Link Agenda</label>
+          <input type="text" id="link-agenda" name="link-agenda" placeholder="Link Agenda" required>
+      </div>
+      <div class="input-agenda-form-actions">
+          <button type="submit" class="input-agenda-btn-unggah">Unggah</button>
+      </div>
     </form>
   </div>
 </div>
