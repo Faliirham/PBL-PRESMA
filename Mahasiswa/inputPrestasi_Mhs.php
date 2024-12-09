@@ -3,7 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="../style/styleCetakPrestasi.css">
+    <link rel="stylesheet" href="../style/mahasiswa/global.css">
+    <link rel="stylesheet" href="../style/mahasiswa/inputPrestasi.css">
     <title>SIPPMA</title>
     <link rel="icon" type="image/png" href="../img/logo_SIPPMA.png">
 </head>
@@ -13,24 +14,24 @@
         <div class="sidebar">
             <div class="profile">
                 <img src="../img/profil.png" alt="Profile" class="profile-img">
-                <h3>Alvino Valerian</h3>
-                <p>23410100100</p>
-                <p>D-IV Teknik Informatika</p>
+                <h3 class="profile-name">Alvino Valerian</h3>
+                <p class="profile-name">23410100100</p>
+                <p class="profile-name">D-IV Teknik Informatika</p>
             </div>
             <nav class="menu">
-                <a href="index_mahasiswa.php" class="menu-item"> 
+                <a href="beranda_Mhs.php" class="menu-item"> 
                     <img src="../img/Beranda_Icon.png" alt="Beranda Icon" class="menu-icon">Beranda
                 </a>
-                <a href="profil_mahasiswa.php" class="menu-item">
+                <a href="profile_Mhs.php" class="menu-item">
                     <img src="../img/Profile_Icon.png" alt="profile Icon" class="menu-icon">Profile Mahasiswa
                 </a>
-                <a href="input_prestasi.php" class="menu-item">
+                <a href="inputPrestasi_Mhs.php" class="menu-item">
                     <img src="../img/InputAgenda_Icon.png" alt="Input Agenda Icon" class="menu-icon">Input Prestasi
                 </a>
-                <a href="cetak_prestasi.php" class="menu-item">
+                <a href="cetakPrestasi_Mhs.php" class="menu-item">
                     <img src="../img/Cetak_Icon.png" alt="Leaderboard Icon" class="menu-icon">Cetak Prestasi
                 </a>
-                <a href="#" class="menu-item">
+                <a href="bantuan_Mhs.php" class="menu-item">
                     <img src="../img/Help_Icon.png" alt="Validasi Icon" class="menu-icon">Bantuan
                 </a>
             </nav>
@@ -49,7 +50,7 @@
                     IPP<span class="highlight">MA</span>
                 </h1>
                 <div class="bell">
-                    <a href="validasiMessage_mahasiswa.php"><img src="../img/Notification_Icon.png" alt="Notification"></a>
+                    <a href="validasiMessage_Mhs.php"><img src="../img/Notification_Icon.png" alt="Notification"></a>
                 </div>
                 <div class="logout">
                     <button onclick="window.location.href='../login.php';">Logout</button>
@@ -60,7 +61,14 @@
             </section>
             <div class="content">
                 <div class="judul">
-                    <h1>Cetak Bukti</h1>
+                    <h1>Daftar Prestasi</h1>
+                </div>
+                <div class="sub-header">
+                    <p>Daftar Prestasi / Penghargaan yang di terima oleh mahasiswa, seperti juara lomba keahlian, juara lomba karya tulis, dan lain-lainnya</p>
+                    <p><span>*Maksimal Pengeditan 1 hari (lebih dari itu data tidak bisa diubah)</span></p>
+                </div>
+                <div class="button-container">
+                    <button onclick="window.location.href='formInputPrestasi_Mhs.php';">Tambah Data</button>
                 </div>
                 <table>
                     <thead>
@@ -69,6 +77,7 @@
                             <th>Nama Penghargaan</th>
                             <th>Juara</th>
                             <th>Kategori</th>
+                            <th>Aksi</th>
                         </tr>
                     </thead>
                     <tbody>
@@ -77,36 +86,53 @@
                             <td>Lomba PKM KC PIMNAS Tahun 2023</td>
                             <td>Juara 1</td>
                             <td>Nasional</td>
+                            <td class="action-buttons">
+                                <a href="#" class="edit-button"><img src="../img/Edit_Icon.png" alt="action-icon" class="action-icon"></a>
+                                <a href="#" class="delete-button"><img src="../img/Delete_Icon.png" alt="action-icon" class="action-icon"></a>
+                            </td>
                         </tr>
                         <tr>
                             <td>2</td>
                             <td>Lomba PKM KC PIMNAS Tahun 2023</td>
                             <td>Juara 2</td>
                             <td>Nasional</td>
+                            <td class="action-buttons">
+                                <a href="#" class="edit-button"><img src="../img/Edit_Icon.png" alt="action-icon" class="action-icon"></a>
+                                <a href="#" class="delete-button"><img src="../img/Delete_Icon.png" alt="action-icon" class="action-icon"></a>
+                            </td>
                         </tr>
                         <tr>
                             <td>3</td>
                             <td>Lomba PKM KC PIMNAS Tahun 2023</td>
                             <td>Juara 3</td>
                             <td>Nasional</td>
+                            <td class="action-buttons">
+                                <a href="#" class="edit-button"><img src="../img/Edit_Icon.png" alt="action-icon" class="action-icon"></a>
+                                <a href="#" class="delete-button"><img src="../img/Delete_Icon.png" alt="action-icon" class="action-icon"></a>
+                            </td>
                         </tr>
                         <tr>
                             <td>4</td>
                             <td>Lomba PKM KC PIMNAS Tahun 2023</td>
                             <td>Harapan 1</td>
                             <td>Nasional</td>
+                            <td class="action-buttons">
+                                <a href="#" class="edit-button"><img src="../img/Edit_Icon.png" alt="action-icon" class="action-icon"></a>
+                                <a href="#" class="delete-button"><img src="../img/Delete_Icon.png" alt="action-icon" class="action-icon"></a>
+                            </td>
                         </tr>
                         <tr>
                             <td>5</td>
                             <td>Lomba PKM KC PIMNAS Tahun 2023</td>
                             <td>Harapan 2</td>
                             <td>Nasional</td>
+                            <td class="action-buttons">
+                                <a href="#" class="edit-button"><img src="../img/Edit_Icon.png" alt="action-icon" class="action-icon"></a>
+                                <a href="#" class="delete-button"><img src="../img/Delete_Icon.png" alt="action-icon" class="action-icon"></a>
+                            </td>
                         </tr>
                     </tbody>
                 </table>
-                <div class="btn-cetak">
-                    <button  onclick="window.location.href='print_prestasi.php';"><img src="../img/Cetak_Icon.png" alt="cetak">Cetak</button>
-                </div>
             </div>
         </div>
     </div>

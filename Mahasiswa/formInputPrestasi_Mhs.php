@@ -3,7 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="../style/styleFormInput.css">
+    <link rel="stylesheet" href="../style/mahasiswa/global.css">
+    <link rel="stylesheet" href="../style/mahasiswa/formInputPrestasi.css">
     <title>SIPPMA</title>
     <link rel="icon" type="image/png" href="../img/logo_SIPPMA.png">
     <script>
@@ -24,24 +25,24 @@
         <div class="sidebar">
             <div class="profile">
                 <img src="../img/profil.png" alt="Profile" class="profile-img">
-                <h3>Alvino Valerian</h3>
-                <p>23410100100</p>
-                <p>D-IV Teknik Informatika</p>
+                <h3 class="profile-name">Alvino Valerian</h3>
+                <p class="profile-name">23410100100</p>
+                <p class="profile-name">D-IV Teknik Informatika</p>
             </div>
             <nav class="menu">
-                <a href="index_mahasiswa.php" class="menu-item"> 
+                <a href="beranda_Mhs.php" class="menu-item"> 
                     <img src="../img/Beranda_Icon.png" alt="Beranda Icon" class="menu-icon">Beranda
                 </a>
-                <a href="#" class="menu-item">
+                <a href="profile_Mhs.php" class="menu-item">
                     <img src="../img/Profile_Icon.png" alt="profile Icon" class="menu-icon">Profile Mahasiswa
                 </a>
-                <a href="input_prestasi.php" class="menu-item">
+                <a href="inputPrestasi_Mhs.php" class="menu-item">
                     <img src="../img/InputAgenda_Icon.png" alt="Input Agenda Icon" class="menu-icon">Input Prestasi
                 </a>
-                <a href="cetak_prestasi.php" class="menu-item">
+                <a href="cetakPrestasi_Mhs.php" class="menu-item">
                     <img src="../img/Cetak_Icon.png" alt="Leaderboard Icon" class="menu-icon">Cetak Prestasi
                 </a>
-                <a href="#" class="menu-item">
+                <a href="bantuan_Mhs.php" class="menu-item">
                     <img src="../img/Help_Icon.png" alt="Validasi Icon" class="menu-icon">Bantuan
                 </a>
             </nav>
@@ -60,7 +61,7 @@
                     IPP<span class="highlight">MA</span>
                 </h1>
                 <div class="bell">
-                    <a href="validasiMessage_mahasiswa.php"><img src="../img/Notification_Icon.png" alt="Notification"></a>
+                    <a href="validasiMessage_Mhs.php"><img src="../img/Notification_Icon.png" alt="Notification"></a>
                 </div>
                 <div class="logout">
                     <button onclick="window.location.href='../login.php';">Logout</button>
@@ -208,7 +209,7 @@
                 </div>
                 <div class="form-actions">
                     <p>*Pastikan Data yang anda masukkan telah sesuai !</p>
-                    <button onclick="window.location.href='input_prestasi.php';" class="cancel">Batal</button>
+                    <button onclick="window.location.href='inputPrestasi_Mhs.php';" class="cancel">Batal</button>
                     <button>Unggah</button>
                 </div>
                 </div>
