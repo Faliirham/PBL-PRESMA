@@ -3,10 +3,10 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/png" href="../img/logo_SIPPMA.png">
+    <title>SIPPMA</title>
     <link rel="stylesheet" href="../style/admin/global.css">
     <link rel="stylesheet" href="../style/admin/profile.css">
-    <title>SIPPMA</title>
-    <link rel="icon" type="image/png" href="../img/logo_SIPPMA.png">
 </head>
 <body>
     <div class="container">
@@ -36,11 +36,8 @@
                     <a href="profile_Admin.php" class="menu-item">
                         <img src="../img/Profile_Icon.png" alt="Profile Icon" class="menu-icon">Profile
                     </a>
-                    <a href="validasiInput_Admin.php" class="menu-item">
-                        <img src="../img/InputAgenda_Icon.png" alt="Input Prestasi Icon" class="menu-icon">Input Prestasi
-                    </a>
-                    <a href="validasiMessage_Admin.php" class="menu-item">
-                        <img src="../img/Validasi_Icon.png" alt="Validasi Icon" class="menu-icon">Validasi Message
+                    <a href="validasiPrestasi_Admin.php" class="menu-item">
+                        <img src="../img/Validasi_Icon.png" alt="Validasi Icon" class="menu-icon">Validasi Prestasi
                     </a>
                 </nav>
                 <footer>

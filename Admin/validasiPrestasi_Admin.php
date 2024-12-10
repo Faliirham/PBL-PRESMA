@@ -3,10 +3,10 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="../style/admin/global.css">
-    <link rel="stylesheet" href="../style/admin/validasiMessage.css">
-    <title>SIPPMA</title>
     <link rel="icon" type="image/png" href="../img/logo_SIPPMA.png">
+    <title>SIPPMA</title>
+    <link rel="stylesheet" href="../style/admin/global.css">
+    <link rel="stylesheet" href="../style/admin/validasiPrestasi.css">
 </head>
 <body>
 <div class="container">
@@ -36,11 +36,8 @@
                     <a href="profile_Admin.php" class="menu-item">
                         <img src="../img/Profile_Icon.png" alt="Profile Icon" class="menu-icon">Profile
                     </a>
-                    <a href="validasiInput_Admin.php" class="menu-item">
-                        <img src="../img/InputAgenda_Icon.png" alt="Input Prestasi Icon" class="menu-icon">Input Prestasi
-                    </a>
-                    <a href="validasiMessage_Admin.php" class="menu-item">
-                        <img src="../img/Validasi_Icon.png" alt="Validasi Icon" class="menu-icon">Validasi Message
+                    <a href="validasiPrestasi_Admin.php" class="menu-item">
+                        <img src="../img/Validasi_Icon.png" alt="Validasi Icon" class="menu-icon">Validasi Prestasi
                     </a>
                 </nav>
                 <footer>
@@ -50,9 +47,10 @@
     <!-- Main Content -->
     <main class="main-content">
             <div class="validasi-message-title">
-                    <h2>Message Validasi</h2>
+                    <h2>Validasi Prestasi</h2>
                 </div>
             <div class="validasi-message-container">
+            <button class="tambah-data" onclick="window.location.href='validasiInput_Admin.php'">Tambah Data</button>
                 <table>
                     <thead>
                         <tr>
@@ -70,54 +68,56 @@
                             <td>Alvino Valerian</td>
                             <td>Juara 1</td>
                             <td>Nasional</td>
-                            <td class="validasi-message-dropdown">
-                            <select class="validasi-dropdown" name="validasiStatus">
-                                <option value="validasi">Validasi</option>
-                                <option value="ditolak">Ditolak</option>
-                                <option value="diterima">Diterima</option>
-                            </select>
-                            <button class="validasi-message-btn-icon">👁</button>
-                        </td>
+                            <td class="status">
+                                <p class="diterima">Diterima</p>
+                            </td>
+                            <td class="action-buttons">
+                                <a href="validasiInput_Admin.php" class="validasi-message-btn-icon">👁</a>
+                                <a href="#" class="edit-button"><img src="../img/Edit_Icon.png" alt="Edit"></a>
+                                <a href="#" class="delete-button"><img src="../img/Delete_Icon.png" alt="Delete"></a>
+                            </td>
                         </tr>
                         <tr>
                             <td>2</td>
                             <td>Ahmad Naufal</td>
                             <td>Juara 2</td>
                             <td>Nasional</td>
-                            <td><select class="validasi-dropdown" id="validasi-status" onchange="ubahStatus()">
-                            <option value="default" disabled selected>Validasi</option>
-                            <option value="diterima">Diterima</option>
-                            <option value="ditolak">Ditolak</option>
-                            </select>
-                            <button class="validasi-message-btn-icon" onclick="redirectToValidasi()">👁</button>
-                        </td>
+                            <td class="status">
+                                <p class="diterima">Diterima</p>
+                            </td>
+                            <td class="action-buttons">
+                                <a href="validasiInput_Admin.php" class="validasi-message-btn-icon">👁</a>
+                                <a href="#" class="edit-button"><img src="../img/Edit_Icon.png" alt="Edit"></a>
+                                <a href="#" class="delete-button"><img src="../img/Delete_Icon.png" alt="Delete"></a>
+                            </td>
                         </tr>
                         <tr>
                             <td>3</td>
                             <td>Billy Maulana</td>
                             <td>Juara 3</td>
                             <td>Nasional</td>
-                            <td><select class="validasi-dropdown" id="validasi-status" onchange="ubahStatus()">
-                            <option value="default" disabled selected>Validasi</option>
-                            <option value="diterima">Diterima</option>
-                            <option value="ditolak">Ditolak</option>
-                            </select>
-                            <button class="validasi-message-btn-icon" onclick="redirectToValidasi()">👁</button>
-                        </td>
+                            <td class="status">
+                                <p class="proses">Proses</p>
+                            </td>
+                            <td class="action-buttons">
+                                <a href="validasiInput_Admin.php" class="validasi-message-btn-icon">👁</a>
+                                <a href="#" class="edit-button"><img src="../img/Edit_Icon.png" alt="Edit"></a>
+                                <a href="#" class="delete-button"><img src="../img/Delete_Icon.png" alt="Delete"></a>
+                            </td>
                         </tr>
                         <tr>
                             <td>4</td>
                             <td>Fali Irham</td>
                             <td>Harapan 1</td>
                             <td>Nasional</td>
-                            <td class="validasi-message-dropdown">
-                            <select class="validasi-dropdown" name="validasiStatus">
-                                <option value="validasi">Validasi</option>
-                                <option value="ditolak">Ditolak</option>
-                                <option value="diterima">Diterima</option>
-                            </select>
-                            <button class="validasi-message-btn-icon">👁</button>
-                        </td>
+                            <td class="status">
+                                <p class="diterima">Diterima</p>
+                            </td>
+                            <td class="action-buttons">
+                                <a href="validasiInput_Admin.php" class="validasi-message-btn-icon">👁</a>
+                                <a href="#" class="edit-button"><img src="../img/Edit_Icon.png" alt="Edit"></a>
+                                <a href="#" class="delete-button"><img src="../img/Delete_Icon.png" alt="Delete"></a>
+                            </td>
                         </tr>
                     </tbody>
                 </table>

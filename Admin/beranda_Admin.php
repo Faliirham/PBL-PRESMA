@@ -37,11 +37,8 @@
                     <a href="profile_Admin.php" class="menu-item">
                         <img src="../img/Profile_Icon.png" alt="Profile Icon" class="menu-icon">Profile
                     </a>
-                    <a href="validasiInput_Admin.php" class="menu-item">
-                        <img src="../img/InputAgenda_Icon.png" alt="Input Prestasi Icon" class="menu-icon">Input Prestasi
-                    </a>
-                    <a href="validasiMessage_Admin.php" class="menu-item">
-                        <img src="../img/Validasi_Icon.png" alt="Validasi Icon" class="menu-icon">Validasi Message
+                    <a href="validasiPrestasi_Admin.php" class="menu-item">
+                        <img src="../img/Validasi_Icon.png" alt="Validasi Icon" class="menu-icon">Validasi Prestasi
                     </a>
                 </nav>
                 <footer>
@@ -212,18 +209,15 @@
     const tambahDataBtn = document.querySelector(".tambah-data");
     const closeBtn = document.querySelector(".close-btn");
 
-    // Tampilkan modal saat tombol "Tambah Data" ditekan
     tambahDataBtn.addEventListener("click", (e) => {
-        e.preventDefault(); // Mencegah aksi default tombol
+        e.preventDefault();
         modal.style.display = "block";
     });
 
-    // Tutup modal saat tombol close ditekan
     closeBtn.addEventListener("click", () => {
         modal.style.display = "none";
     });
 
-    // Tutup modal saat klik di luar modal
     window.addEventListener("click", (e) => {
         if (e.target === modal) {
         modal.style.display = "none";

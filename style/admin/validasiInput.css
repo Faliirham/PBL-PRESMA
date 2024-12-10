@@ -1,3 +1,10 @@
+.main-content {
+  flex: 8;
+  padding: 20px;
+  background-color: #f4f4f4;
+  color: #333;
+}
+
 .validasi-input-title h2 {
   background-color: #140C5F;
   color: white;
@@ -104,8 +111,9 @@
 
 .validasi-input-form-actions {
   display: flex;
-  justify-content: flex-end;
+  justify-content: space-between;
   gap: 10px;
+  padding-top: 20px;
 }
 
 .validasi-input-form-actions button {
@@ -117,12 +125,19 @@
   cursor: pointer;
 }
 
-.validasi-input-btn-batal {
+
+.back {
+  background-color: #1DAC98;
+  color: white;
+} 
+
+.validasi-input-btn-tolak {
+  margin-left: 800px;
   background-color: #E03616;
   color: white;
 }
 
-.validasi-input-btn-unggah {
+.validasi-input-btn-terima {
   background-color: #009F58;
   color: white;
 }
