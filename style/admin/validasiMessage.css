@@ -1,3 +1,10 @@
+.main-content {
+  flex: 8;
+  padding: 20px;
+  background-color: #f4f4f4;
+  color: #333;
+}
+
 .validasi-message-container {
   position: relative;
   background: #fff;

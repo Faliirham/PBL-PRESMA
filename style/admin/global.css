@@ -69,13 +69,13 @@ body {
 }
 
 .sidebar {
-    flex: 1;
+    flex: 0 0;
     width: 25%;
     background-color: #18143D;
     color: #fff;
     min-width: 200px; 
     box-sizing: border-box;
-    position: relative;
+    position: sticky;
 }
 
 .sidebar .profile {

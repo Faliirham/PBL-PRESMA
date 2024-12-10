@@ -3,10 +3,11 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/png" href="../img/logo_SIPPMA.png">
     <title>SIPPMA</title>
-    <link rel="stylesheet" href="global.css">
-    <link rel="stylesheet" href="agenda.css">
-    <link rel="stylesheet" href="leaderboard.css">
+    <link rel="stylesheet" href="../style/admin/global.css">
+    <link rel="stylesheet" href="../style/admin/agenda.css">
+    <link rel="stylesheet" href="../style/admin/leaderboard.css">
 </head>
 <body>
     <div class="container">
@@ -35,12 +36,6 @@
                     </a>
                     <a href="profile_Admin.php" class="menu-item">
                         <img src="../img/Profile_Icon.png" alt="Profile Icon" class="menu-icon">Profile
-                    </a>
-                    <a href="inputAgenda_Admin.php" class="menu-item">
-                        <img src="../img/InputAgenda_Icon.png" alt="Input Agenda Icon" class="menu-icon">Input Agenda
-                    </a>
-                    <a href="leaderboard_Admin.php" class="menu-item">
-                        <img src="../img/Leaderboard_Icon.png" alt="Leaderboard Icon" class="menu-icon">Leader Board
                     </a>
                     <a href="validasiInput_Admin.php" class="menu-item">
                         <img src="../img/InputAgenda_Icon.png" alt="Input Prestasi Icon" class="menu-icon">Input Prestasi
@@ -188,5 +183,52 @@
             </main>
         </div>
     </div>
+
+    <div id="popupModal" class="popup-modal">
+        <div class="popup-content">
+            <span class="close-btn">&times;</span>
+            <form class="input-agenda-form" action="#" method="post" enctype="multipart/form-data">
+            <div class="input-agenda-form-group">
+                <label for="nama-agenda">Nama Agenda</label>
+                <input type="text" id="nama-agenda" name="nama-agenda" placeholder="Nama Agenda" required>
+            </div>
+            <div class="input-agenda-form-group">
+                <label for="tanggal-agenda">Tanggal Agenda</label>
+                <input type="date" id="tanggal-agenda" name="tanggal-agenda" placeholder="DD/MM/YYYY" required>
+            </div>
+            <div class="input-agenda-form-group">
+                <label for="link-agenda">Link Agenda</label>
+                <input type="text" id="link-agenda" name="link-agenda" placeholder="Link Agenda" required>
+            </div>
+            <div class="input-agenda-form-actions">
+                <button type="submit" class="input-agenda-btn-unggah">Unggah</button>
+            </div>
+            </form>
+        </div>
+    </div>
+
+    <script>
+    const modal = document.getElementById("popupModal");
+    const tambahDataBtn = document.querySelector(".tambah-data");
+    const closeBtn = document.querySelector(".close-btn");
+
+    // Tampilkan modal saat tombol "Tambah Data" ditekan
+    tambahDataBtn.addEventListener("click", (e) => {
+        e.preventDefault(); // Mencegah aksi default tombol
+        modal.style.display = "block";
+    });
+
+    // Tutup modal saat tombol close ditekan
+    closeBtn.addEventListener("click", () => {
+        modal.style.display = "none";
+    });
+
+    // Tutup modal saat klik di luar modal
+    window.addEventListener("click", (e) => {
+        if (e.target === modal) {
+        modal.style.display = "none";
+        }
+    });
+    </script>
 </body>
 </html>
