@@ -20,7 +20,8 @@
                     <input type="text" name="email" placeholder="EMAIL" required>
                     <input type="password" name="new password" placeholder="NEW PASSWORD" required>
                     <input type="password" name="comfirm password" placeholder="CONFIRM PASSWORD" required>
-                    <button type="submit">UPDATE</button>
+                    <button class="update" type="submit">UPDATE</button>
+                    <button class="back" type="button" onclick="window.location.href='login.php'">BACK</button>
                 </form>
             </div>
         </div>

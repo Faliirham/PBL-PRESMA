@@ -57,10 +57,8 @@
 
     <!-- Main Content -->
     <main class="main-content">
-        <div class="welcome">
-        <h2>SELAMAT DATANG "Admin"</h2>
             <div class="input-agenda-title">
-                    <h2>Input Agenda</h2>
+                <h2>Input Agenda</h2>
                 <div class="input-agenda-container">
                     <div class="input-agenda-content">
                     <form class="input-agenda-form" action="#" method="post" enctype="multipart/form-data">
@@ -84,7 +82,6 @@
                     </div>  
                 </div>
             </div>
-        </div>
     </main>
 </body>
 </html>

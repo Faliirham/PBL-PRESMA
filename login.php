@@ -16,11 +16,11 @@
                 </div>
                 <h2>LOGIN</h2>
                 <p class="subtitle">SISTEM PENCATATAN PRESTASI MAHASISWA</p>
-                <form action="" method="post">
+                <form action="Mahasiswa/beranda2_Mhs.php" method="post">
                     <input type="text" name="username" placeholder="USERNAME" required>
                     <input type="password" name="password" placeholder="PASSWORD" required>
                     <a href="forgot.php" class="forgot-password">Forgot Password ?</a>
-                    <button type="submit"><a href="Mahasiswa/beranda_Mhs.php">LOGIN</a></button>
+                    <button type="submit">LOGIN></button>
                 </form>
             </div>
         </div>
