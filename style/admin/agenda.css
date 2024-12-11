@@ -37,7 +37,7 @@
     color: #fff;
 }
 
-.tambah-data {
+.tambah-agenda {
     background-color: #009F58;
     color: #fff;
     padding: 8px 10px;
@@ -47,7 +47,7 @@
     transition: background-color 0.3s;
 }
 
-.tambah-data:hover {
+.tambah-agenda:hover {
     background-color: #009F58;
 }
 
@@ -113,11 +113,11 @@
 }
 
 .edit-delete-icons .edit-icon {
-    background-color: blue;
+    background-color: #140C5F;
 }
 
 .edit-delete-icons .delete-icon {
-    background: red;
+    background: #E03616;
 }
 
 .agenda-item-content {
@@ -145,8 +145,8 @@ a:hover {
     color: #666;
 }
 
-/* Pop Up */
-.popup-modal {
+/* Popup */
+.popup-agenda {
   display: none;
   position: fixed;
   z-index: 1000;
@@ -157,17 +157,18 @@ a:hover {
   background-color: rgba(0, 0, 0, 0.5);
 }
 
-.popup-content {
-  background-color:  whitesmoke;
+.popup-content-agenda {
+  background-color:  white;
   margin: 15% auto;
   padding: 20px;
   border-radius: 8px;
   width: 50%;
   box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
   position: relative;
+  opacity: 0.9;
 }
 
-.close-btn {
+.close-btn-agenda {
   position: absolute;
   top: 0px;
   right: 10px;

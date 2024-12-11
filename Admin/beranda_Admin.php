@@ -52,7 +52,30 @@
                     <section class="agenda">
                         <div class="agenda-header">
                             <h2>Agenda Lomba Mahasiswa</h2>
-                            <button class="tambah-data">Tambah Data</button>
+                            <script src="js/agenda.js" ></script>
+                            <button class="tambah-agenda">Tambah Data</button>
+                            <div id="popupAgenda" class="popup-agenda">
+                                <div class="popup-content-agenda">
+                                    <span class="close-btn-agenda">&times;</span>
+                                    <form class="input-agenda-form" action="#" method="post" enctype="multipart/form-data">
+                                    <div class="input-agenda-form-group">
+                                        <label for="nama-agenda">Nama Agenda</label>
+                                        <input type="text" id="nama-agenda" name="nama-agenda" placeholder="Nama Agenda" required>
+                                    </div>
+                                    <div class="input-agenda-form-group">
+                                        <label for="tanggal-agenda">Tanggal Agenda</label>
+                                        <input type="date" id="tanggal-agenda" name="tanggal-agenda" placeholder="DD/MM/YYYY" required>
+                                    </div>
+                                    <div class="input-agenda-form-group">
+                                        <label for="link-agenda">Link Agenda</label>
+                                        <input type="text" id="link-agenda" name="link-agenda" placeholder="Link Agenda" required>
+                                    </div>
+                                    <div class="input-agenda-form-actions">
+                                        <button type="submit" class="input-agenda-btn-unggah">Unggah</button>
+                                    </div>
+                                    </form>
+                                </div>
+                            </div>
                         </div>
                         <div class="agenda-list">
                             <div class="agenda-item">
@@ -178,89 +201,65 @@
                         </div>
                     </div>
                     <section id="features" class="features">
-                        <h2>Fitur Utama</h2>
+                        <h2>Fitur Tambahan</h2>
                         <div class="features-list">
-                        <div class="feature">
-                            <div class="feature-image">
-                                <img src="../img/Leaderboard-page.png" alt="Leaderboard">
-                            </div>
-                            <h3>Leaderboard</h3>
-                            <p>Jadilah yang terdepan! Fitur ini menampilkan peringkat prestasi Anda 
-                                secara real-time, memotivasi untuk terus meningkatkan performa.</p>
-                        </div>
                         <div class="feature">
                             <div class="feature-image">
                                 <img src="../img/InputPrestasi-page.png" alt="Input Prestasi">
                             </div>
-                            <h3>Input Prestasi</h3>
-                            <p>Catat setiap prestasi Anda dengan mudah! Jangan biarkan satu pun 
-                                prestasi anda tidak diketahui oleh orang lain </p>
+                            <h3>Tambah User</h3>
+                            <p>Ingin menambahkan pengguna baru? 
+                                Kelola dengan mudah dan tambahkan data pengguna terbaru sekarang juga!</p>
+                                <script src="js/user.js"></script>
+                            <button id="tambah-user" class="tambah-data">Tambah</button>
+                            <div id="popupUser" class="popup-user">
+                                <div class="popup-content-user">
+                                    <span class="close-btn-user">&times;</span>
+                                    <form class="input-user-form" action="#" method="post" enctype="multipart/form-data">
+                                        <div class="input-user-form-group">
+                                            <label for="username">Username</label>
+                                            <input type="text" id="username" name="username" placeholder="Username" required>
+                                        </div>
+                                        <div class="input-user-form-group">
+                                            <label for="password">Password</label>
+                                            <input type="password" id="password" name="password" placeholder="Password" required>
+                                        </div>
+                                        <div class="input-user-form-actions">
+                                            <button type="submit" class="input-user-btn-unggah">Tambah User</button>
+                                        </div>
+                                    </form>
+                                </div>
+                            </div>
                         </div>
                         <div class="feature">
                             <div class="feature-image">
-                                <img src="../img/ValidasiInput-page.png" alt="Validasi Input">
+                                <img src="../img/InputPrestasi-page.png" alt="Validasi Input">
                             </div>
-                            <h3>Validasi Input</h3>
-                            <p>Permudah proses validasi data prestasi mahasiswa! Fitur ini 
-                                memastikan setiap pencatatan prestasi yang diinput sudah akurat dan sesuai.</p>
-                        </div>
-                        <div class="feature">
-                            <div class="feature-image">
-                                <img src="../img/CetakPrestasi-page.png" alt="Cetak Prestasi">
+                            <h3>Tambah Tingkat Prestasi</h3>
+                            <p> Tidak ada tingkat! Tambahkan tingkat prestasi baru 
+                                untuk mencatat pencapaian yang lebih luar biasa.</p>
+                            <script src="js/tingkat.js"></script>
+                            <button id="tambah-prestasi" class="tambah-data">Tambah</button>
+                            <div id="popupPrestasi" class="popup-prestasi">
+                                <div class="popup-content-prestasi">
+                                    <span class="close-btn-prestasi">&times;</span>
+                                    <form class="input-prestasi-form" action="#" method="post" enctype="multipart/form-data">
+                                        <div class="input-prestasi-form-group">
+                                            <label for="nama-prestasi">Tingkat Prestasi</label>
+                                            <input type="text" id="nama-prestasi" name="nama-prestasi" placeholder="Tingkat Prestasi" required>
+                                        </div>
+                                        <div class="input-prestasi-form-actions">
+                                            <button type="submit" class="input-prestasi-btn-unggah">Tambah Tingkat</button>
+                                        </div>
+                                    </form>
+                                </div>
                             </div>
-                            <h3>Cetak Prestasi</h3>
-                            <p>Hasilkan laporan prestasi resmi dari data yang telah diinput 
-                                dan divalidasi! Laporan ini siap digunakan sebagai dokumentasi akademik</p>
-                        </div>
                         </div>
                     </section>
                 </div>
             </main>
         </div>
+        
     </div>
-
-    <div id="popupModal" class="popup-modal">
-        <div class="popup-content">
-            <span class="close-btn">&times;</span>
-            <form class="input-agenda-form" action="#" method="post" enctype="multipart/form-data">
-            <div class="input-agenda-form-group">
-                <label for="nama-agenda">Nama Agenda</label>
-                <input type="text" id="nama-agenda" name="nama-agenda" placeholder="Nama Agenda" required>
-            </div>
-            <div class="input-agenda-form-group">
-                <label for="tanggal-agenda">Tanggal Agenda</label>
-                <input type="date" id="tanggal-agenda" name="tanggal-agenda" placeholder="DD/MM/YYYY" required>
-            </div>
-            <div class="input-agenda-form-group">
-                <label for="link-agenda">Link Agenda</label>
-                <input type="text" id="link-agenda" name="link-agenda" placeholder="Link Agenda" required>
-            </div>
-            <div class="input-agenda-form-actions">
-                <button type="submit" class="input-agenda-btn-unggah">Unggah</button>
-            </div>
-            </form>
-        </div>
-    </div>
-
-    <script>
-    const modal = document.getElementById("popupModal");
-    const tambahDataBtn = document.querySelector(".tambah-data");
-    const closeBtn = document.querySelector(".close-btn");
-
-    tambahDataBtn.addEventListener("click", (e) => {
-        e.preventDefault();
-        modal.style.display = "block";
-    });
-
-    closeBtn.addEventListener("click", () => {
-        modal.style.display = "none";
-    });
-
-    window.addEventListener("click", (e) => {
-        if (e.target === modal) {
-        modal.style.display = "none";
-        }
-    });
-    </script>
 </body>
 </html>
