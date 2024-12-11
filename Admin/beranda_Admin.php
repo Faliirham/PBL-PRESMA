@@ -5,10 +5,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="icon" type="image/png" href="../img/logo_SIPPMA.png">
     <title>SIPPMA</title>
-    <link rel="stylesheet" href="../style/admin/global.css">
-    <link rel="stylesheet" href="../style/admin/agenda.css">
-    <link rel="stylesheet" href="../style/admin/leaderboard.css">
-    <link rel="stylesheet" href="../style/admin/fitur.css">
+    <link rel="stylesheet" href="../style/global.css">
+    <link rel="stylesheet" href="../style/agenda.css">
+    <link rel="stylesheet" href="../style/leaderboard.css">
+    <link rel="stylesheet" href="../style/fitur.css">
 </head>
 <body>
     <div class="container">
@@ -153,7 +153,7 @@
                         </div>
                     </section>
                     <div class="leaderboard-ranking">
-                        <h3>Ranking</h3>
+                        <h1>Ranking</h1>
                         <div class="leaderboard-ranking-item">
                             <img src="../img/juara1.png" alt="juara1" class="leaderboard-rank-number">
                             <div class="leaderboard-rank-info">
@@ -201,7 +201,7 @@
                         </div>
                     </div>
                     <section id="features" class="features">
-                        <h2>Fitur Tambahan</h2>
+                        <h2>Fitur</h2>
                         <div class="features-list">
                         <div class="feature">
                             <div class="feature-image">

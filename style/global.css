@@ -46,17 +46,6 @@ body {
     color: #FEC01A;
 }
 
-.bell button {
-    cursor: pointer;
-    background: #140C5F;
-    margin-right: 20px;
-}
-
-.bell img {
-    height: 30px;
-}
-
-
 .logout button {
     background-color: #E03616;
     color: #fff;

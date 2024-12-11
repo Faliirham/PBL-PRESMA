@@ -15,7 +15,7 @@
     content: "";
     position: absolute;
     top: 50%;
-    width: 38%;
+    width: 45%;
     height: 3px;
     background-color: red;
 }
@@ -49,6 +49,17 @@
     align-items: center; 
     gap: 10px; 
     justify-content: space-between;
+    transition: all 0.3s ease;
+}
+
+.features-list a {
+    text-decoration-line: none;
+    color: #fff;
+    
+}
+
+.features-list a:hover {
+    opacity: 0.6;
 }
 
 .feature h3 {

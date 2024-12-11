@@ -5,10 +5,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="icon" type="image/png" href="../img/logo_SIPPMA.png">
     <title>SIPPMA</title>
-    <link rel="stylesheet" href="../style/admin/global.css">
-    <link rel="stylesheet" href="../style/admin/agenda.css">
-    <link rel="stylesheet" href="../style/admin/leaderboard.css">
-    <link rel="stylesheet" href="../style/admin/fitur.css">
+    <link rel="stylesheet" href="../style/global.css">
+    <link rel="stylesheet" href="../style/agenda.css">
+    <link rel="stylesheet" href="../style/leaderboard.css">
+    <link rel="stylesheet" href="../style/fitur.css">
 </head>
 <body>
     <div class="container">
@@ -19,9 +19,6 @@
             <h1 class="teks">
                 IPP<span class="highlight">MA</span>
             </h1>
-            <div class="bell">
-                <a href="validasiPrestasi_Mhs.php"><img src="../img/Notification_Icon.png" alt="Notification"></a>
-            </div>
             <div class="logout">
                 <button onclick="window.location.href='../login.php';">Logout</button>
             </div>
@@ -41,8 +38,8 @@
                     <a href="profile_Mhs.php" class="menu-item">
                         <img src="../img/Profile_Icon.png" alt="Profile Icon" class="menu-icon">Profile
                     </a>
-                    <a href="validasiPrestasi_Mhs.php" class="menu-item">
-                        <img src="../img/Validasi_Icon.png" alt="Validasi Icon" class="menu-icon">Validasi Prestasi
+                    <a href="prestasi_Mhs.php" class="menu-item">
+                        <img src="../img/Leaderboard_Icon.png" alt="Validasi Icon" class="menu-icon">Prestasi
                     </a>
                     <a href="cetakPrestasi_Mhs.php" class="menu-item">
                         <img src="../img/Cetak_Icon.png" alt="Cetak Icon" class="menu-icon">Cetak Prestasi
@@ -114,7 +111,7 @@
                         </div>
                     </section>
                     <div class="leaderboard-ranking">
-                        <h3>Ranking</h3>
+                        <h1>Ranking</h1>
                         <div class="leaderboard-ranking-item">
                             <img src="../img/juara1.png" alt="juara1" class="leaderboard-rank-number">
                             <div class="leaderboard-rank-info">
@@ -162,17 +159,10 @@
                         </div>
                     </div>
                     <section id="features" class="features">
-                        <h2>Fitur Utama</h2>
+                        <h2>Fitur</h2>
                         <div class="features-list">
                         <div class="feature">
-                            <div class="feature-image">
-                                <img src="../img/Leaderboard-page.png" alt="Leaderboard">
-                            </div>
-                            <h3>Leaderboard</h3>
-                            <p>Jadilah yang terdepan! Fitur ini menampilkan peringkat prestasi Anda 
-                                secara real-time, memotivasi untuk terus meningkatkan performa.</p>
-                        </div>
-                        <div class="feature">
+                        <a href="formInputPrestasi_Mhs.php">
                             <div class="feature-image">
                                 <img src="../img/InputPrestasi-page.png" alt="Input Prestasi">
                             </div>
@@ -181,14 +171,7 @@
                                 prestasi anda tidak diketahui oleh orang lain </p>
                         </div>
                         <div class="feature">
-                            <div class="feature-image">
-                                <img src="../img/ValidasiInput-page.png" alt="Validasi Input">
-                            </div>
-                            <h3>Validasi Input</h3>
-                            <p>Permudah proses validasi data prestasi mahasiswa! Fitur ini 
-                                memastikan setiap pencatatan prestasi yang diinput sudah akurat dan sesuai.</p>
-                        </div>
-                        <div class="feature">
+                        <a href="printPrestasi_Mhs.php">
                             <div class="feature-image">
                                 <img src="../img/CetakPrestasi-page.png" alt="Cetak Prestasi">
                             </div>

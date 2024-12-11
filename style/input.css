@@ -109,11 +109,12 @@
   padding-right: 5px;
 }
 
-.validasi-input-form-actions {
-  display: flex;
-  justify-content: space-between;
-  gap: 10px;
-  padding-top: 20px;
+.validasi-input-form-actions p {
+  margin-top: 10px;
+  text-align: left;
+  font-size: 14px;
+  color: #ff4500;
+  font-style: italic;
 }
 
 .validasi-input-form-actions button {
@@ -125,6 +126,12 @@
   cursor: pointer;
 }
 
+.validasi-input-form-actions {
+  display: flex;
+  justify-content: flex-end;
+  gap: 10px;
+  color: #ff4d4d;
+}
 
 .back {
   background-color: #1DAC98;
@@ -136,8 +143,16 @@
   background-color: #E03616;
   color: white;
 }
+.validasi-input-btn-batal {
+  background-color: #E03616;
+  color: white;
+}
 
 .validasi-input-btn-terima {
+  background-color: #009F58;
+  color: white;
+}
+.validasi-input-btn-unggah {
   background-color: #009F58;
   color: white;
 }

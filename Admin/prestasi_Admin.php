@@ -5,8 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="icon" type="image/png" href="../img/logo_SIPPMA.png">
     <title>SIPPMA</title>
-    <link rel="stylesheet" href="../style/admin/global.css">
-    <link rel="stylesheet" href="../style/admin/prestasi.css">
+    <link rel="stylesheet" href="../style/global.css">
+    <link rel="stylesheet" href="../style/prestasi.css">
 </head>
 <body>
 <div class="container">

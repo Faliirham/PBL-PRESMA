@@ -63,21 +63,12 @@ th {
     cursor: pointer;
 }
 
+.btn-cetak button:hover{
+    opacity: 0.9;
+}
+
 .btn-cetak img{
     height: 17px;
     width: 17px;
     padding: 3px;
-}
-
-@media (max-width: 768px) {
-    .container {
-        width: 100%;
-    }
-    .button-container button {
-        width: 100%;
-        margin-bottom: 10px;
-    }
-    table, th, td {
-        font-size: 12px;
-    }
 }

@@ -5,8 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="icon" type="image/png" href="../img/logo_SIPPMA.png">
     <title>SIPPMA</title>
-    <link rel="stylesheet" href="../style/admin/global.css">
-    <link rel="stylesheet" href="../style/mahasiswa/bantuan.css">
+    <link rel="stylesheet" href="../style/global.css">
+    <link rel="stylesheet" href="../style/bantuan.css">
 </head>
 <body>
     <div class="container">
@@ -17,9 +17,6 @@
             <h1 class="teks">
                 IPP<span class="highlight">MA</span>
             </h1>
-            <div class="bell">
-                <a href="validasiPrestasi_Mhs.php"><img src="../img/Notification_Icon.png" alt="Notification"></a>
-            </div>
             <div class="logout">
                 <button onclick="window.location.href='../login.php';">Logout</button>
             </div>
@@ -39,8 +36,8 @@
                     <a href="profile_Mhs.php" class="menu-item">
                         <img src="../img/Profile_Icon.png" alt="Profile Icon" class="menu-icon">Profile
                     </a>
-                    <a href="validasiPrestasi_Mhs.php" class="menu-item">
-                        <img src="../img/Validasi_Icon.png" alt="Validasi Icon" class="menu-icon">Validasi Prestasi
+                    <a href="prestasi_Mhs.php" class="menu-item">
+                        <img src="../img/Leaderboard_Icon.png" alt="Validasi Icon" class="menu-icon">Prestasi
                     </a>
                     <a href="cetakPrestasi_Mhs.php" class="menu-item">
                         <img src="../img/Cetak_Icon.png" alt="Cetak Icon" class="menu-icon">Cetak Prestasi
