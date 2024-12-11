@@ -6,7 +6,7 @@
     <link rel="icon" type="image/png" href="../img/logo_SIPPMA.png">
     <title>SIPPMA</title>
     <link rel="stylesheet" href="../style/admin/global.css">
-    <link rel="stylesheet" href="../style/admin/validasiPrestasi.css">
+    <link rel="stylesheet" href="../style/admin/prestasi.css">
 </head>
 <body>
 <div class="container">
@@ -36,8 +36,8 @@
                     <a href="profile_Admin.php" class="menu-item">
                         <img src="../img/Profile_Icon.png" alt="Profile Icon" class="menu-icon">Profile
                     </a>
-                    <a href="validasiPrestasi_Admin.php" class="menu-item">
-                        <img src="../img/Validasi_Icon.png" alt="Validasi Icon" class="menu-icon">Validasi Prestasi
+                    <a href="prestasi_Admin.php" class="menu-item">
+                        <img src="../img/Leaderboard_Icon.png" alt="Validasi Icon" class="menu-icon">Prestasi
                     </a>
                 </nav>
                 <footer>
@@ -47,10 +47,10 @@
     <!-- Main Content -->
     <main class="main-content">
             <div class="validasi-message-title">
-                    <h2>Validasi Prestasi</h2>
+                    <h2>Prestasi</h2>
                 </div>
             <div class="validasi-message-container">
-            <button class="tambah-data" onclick="window.location.href='validasiInput_Admin.php'">Tambah Data</button>
+            <button class="tambah-data" onclick="window.location.href='input_Admin.php'">Tambah Data</button>
                 <table>
                     <thead>
                         <tr>
@@ -72,7 +72,7 @@
                                 <p class="diterima">Diterima</p>
                             </td>
                             <td class="action-buttons">
-                                <a href="validasiInput_Admin.php" class="validasi-message-btn-icon">👁</a>
+                                <a href="input_Admin.php" class="validasi-message-btn-icon">👁</a>
                                 <a href="#" class="edit-button"><img src="../img/Edit_Icon.png" alt="Edit"></a>
                                 <a href="#" class="delete-button"><img src="../img/Delete_Icon.png" alt="Delete"></a>
                             </td>
@@ -86,7 +86,7 @@
                                 <p class="diterima">Diterima</p>
                             </td>
                             <td class="action-buttons">
-                                <a href="validasiInput_Admin.php" class="validasi-message-btn-icon">👁</a>
+                                <a href="input_Admin.php" class="validasi-message-btn-icon">👁</a>
                                 <a href="#" class="edit-button"><img src="../img/Edit_Icon.png" alt="Edit"></a>
                                 <a href="#" class="delete-button"><img src="../img/Delete_Icon.png" alt="Delete"></a>
                             </td>
@@ -97,10 +97,10 @@
                             <td>Juara 3</td>
                             <td>Nasional</td>
                             <td class="status">
-                                <p class="proses">Proses</p>
+                                <p class="proses">Prosses</p>
                             </td>
                             <td class="action-buttons">
-                                <a href="validasiInput_Admin.php" class="validasi-message-btn-icon">👁</a>
+                                <a href="input_Admin.php" class="validasi-message-btn-icon">👁</a>
                                 <a href="#" class="edit-button"><img src="../img/Edit_Icon.png" alt="Edit"></a>
                                 <a href="#" class="delete-button"><img src="../img/Delete_Icon.png" alt="Delete"></a>
                             </td>
@@ -114,7 +114,7 @@
                                 <p class="diterima">Diterima</p>
                             </td>
                             <td class="action-buttons">
-                                <a href="validasiInput_Admin.php" class="validasi-message-btn-icon">👁</a>
+                                <a href="input_Admin.php" class="validasi-message-btn-icon">👁</a>
                                 <a href="#" class="edit-button"><img src="../img/Edit_Icon.png" alt="Edit"></a>
                                 <a href="#" class="delete-button"><img src="../img/Delete_Icon.png" alt="Delete"></a>
                             </td>
@@ -138,7 +138,7 @@
   }
 }
     function redirectToValidasi() {
-  window.location.href = "validasiInput_Admin.php";
+  window.location.href = "input_Admin.php";
 }
   </script>
 </body>

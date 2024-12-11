@@ -43,7 +43,7 @@ body {
 }
 
 .teks .highlight {
-    color: #f4a261;
+    color: #FEC01A;
 }
 
 .bell button {
@@ -70,7 +70,7 @@ body {
 }
 
 .logout button:hover {
-    background-color: #E03616;
+    opacity: 0.9;
 }
 
 /* Sidebar */
@@ -129,7 +129,7 @@ body {
 }
 
 .sidebar .menu-item:hover {
-    background-color: #666;
+    background-color: #1DAC98;
 }
 
 .sidebar .menu-icon {

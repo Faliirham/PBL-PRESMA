@@ -74,6 +74,10 @@
     margin-top: 10px;
 }
 
+.tambah-data:hover {
+    opacity: 0.9;
+}
+
 /* Popup */
 /* Prestasi */
 .popup-prestasi,
@@ -102,6 +106,7 @@
 
 .close-btn-prestasi,
 .close-btn-user {
+    color: gray;
     position: absolute;
     top: 0px;
     right: 10px;
@@ -158,19 +163,21 @@
 
 .input-prestasi-btn-unggah,
 .input-user-btn-unggah {
-    background-color: #4CAF50;
-    color: white;
-    padding: 10px 15px;
+    width: 90px;
+    height: 30px;
     border: none;
-    border-radius: 5px;
+    border-radius: 7px;
+    font-size: 14px;
     cursor: pointer;
-    font-size: 16px;
-    transition: background-color 0.3s;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #009F58;
+    color: white;
 }
 
 .input-prestasi-btn-unggah:hover,
 .input-user-btn-unggah:hover {
-    background-color: #45a049;
     opacity: 0.9;
 }
 

@@ -11,7 +11,7 @@
 }
 
 .leaderboard-ranking h3 {
-  background: #E03616;
+  background: #1DAC98;
   color: white;
   text-align: center;
   padding: 10px;
@@ -64,54 +64,4 @@
   text-shadow: 
     1px 1px 2px rgba(0, 0, 0, 0.3), 
     -1px -1px 2px rgba(0, 0, 0, 0.3); 
-}
-
-.leaderboard-agenda {
-  width: 45%;
-}
-
-.leaderboard-agenda h3 {
-  background: #E03616;
-  color: white;
-  text-align: center;
-  padding: 10px;
-  border-radius: 5px;
-  margin: 0 0 20px 0;
-}
-
-.leaderboard-agenda-item {
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  border: 1px solid gray;
-  border-radius: 5px;
-  margin-bottom: 10px;
-  background: #f7f7f7;
-  padding: 10px;
-  transition: box-shadow 0.3s;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-}
-
-.leaderboard-agenda-name {
-  font-size: 16px;
-  margin: 0;
-}
-
-.leaderboard-agenda-date {
-  font-size: 12px;
-  margin: 0;
-}
-
-.leaderboard-agenda-link {
-  background: #0033FF;
-  color: white;
-  padding: 5px 10px;
-  border-radius: 5px;
-  text-decoration: none;
-  font-size: 14px;
-  align-self: flex-end;
-}
-
-.leaderboard-agenda-link:hover {
-  background: #3b349c;
 }

@@ -38,8 +38,8 @@
                     <a href="profile_Admin.php" class="menu-item">
                         <img src="../img/Profile_Icon.png" alt="Profile Icon" class="menu-icon">Profile
                     </a>
-                    <a href="validasiPrestasi_Admin.php" class="menu-item">
-                        <img src="../img/Validasi_Icon.png" alt="Validasi Icon" class="menu-icon">Validasi Prestasi
+                    <a href="prestasi_Admin.php" class="menu-item">
+                        <img src="../img/Leaderboard_Icon.png" alt="Validasi Icon" class="menu-icon">Prestasi
                     </a>
                 </nav>
                 <footer>
@@ -225,7 +225,7 @@
                                             <input type="password" id="password" name="password" placeholder="Password" required>
                                         </div>
                                         <div class="input-user-form-actions">
-                                            <button type="submit" class="input-user-btn-unggah">Tambah User</button>
+                                            <button type="submit" class="input-user-btn-unggah">Tambah</button>
                                         </div>
                                     </form>
                                 </div>
@@ -249,7 +249,7 @@
                                             <input type="text" id="nama-prestasi" name="nama-prestasi" placeholder="Tingkat Prestasi" required>
                                         </div>
                                         <div class="input-prestasi-form-actions">
-                                            <button type="submit" class="input-prestasi-btn-unggah">Tambah Tingkat</button>
+                                            <button type="submit" class="input-prestasi-btn-unggah">Tambah</button>
                                         </div>
                                     </form>
                                 </div>

@@ -6,7 +6,7 @@
     <link rel="icon" type="image/png" href="../img/logo_SIPPMA.png">
     <title>SIPPMA</title>
     <link rel="stylesheet" href="../style/admin/global.css">
-    <link rel="stylesheet" href="../style/admin/validasiInput.css">
+    <link rel="stylesheet" href="../style/admin/input.css">
 </head>
 <body>
 <div class="container">
@@ -34,8 +34,8 @@
                 <a href="profile_Admin.php" class="menu-item">
                     <img src="../img/Profile_Icon.png" alt="Profile Icon" class="menu-icon">Profile
                 </a>
-                <a href="validasiPrestasi_Admin.php" class="menu-item">
-                    <img src="../img/Validasi_Icon.png" alt="Validasi Icon" class="menu-icon">Validasi Prestasi
+                <a href="prestasi_Admin.php" class="menu-item">
+                    <img src="../img/Leaderboard_Icon.png" alt="Validasi Icon" class="menu-icon">Prestasi
                 </a>
             </nav>
             <footer>
