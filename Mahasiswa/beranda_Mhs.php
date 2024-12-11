@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="../style/admin/global.css">
     <link rel="stylesheet" href="../style/admin/agenda.css">
     <link rel="stylesheet" href="../style/admin/leaderboard.css">
+    <link rel="stylesheet" href="../style/admin/fitur.css">
 </head>
 <body>
     <div class="container">
@@ -160,6 +161,43 @@
                             <span class="leaderboard-rank-score">87</span>
                         </div>
                     </div>
+                    <section id="features" class="features">
+                        <h2>Fitur Utama</h2>
+                        <div class="features-list">
+                        <div class="feature">
+                            <div class="feature-image">
+                                <img src="../img/Leaderboard-page.png" alt="Leaderboard">
+                            </div>
+                            <h3>Leaderboard</h3>
+                            <p>Jadilah yang terdepan! Fitur ini menampilkan peringkat prestasi Anda 
+                                secara real-time, memotivasi untuk terus meningkatkan performa.</p>
+                        </div>
+                        <div class="feature">
+                            <div class="feature-image">
+                                <img src="../img/InputPrestasi-page.png" alt="Input Prestasi">
+                            </div>
+                            <h3>Input Prestasi</h3>
+                            <p>Catat setiap prestasi Anda dengan mudah! Jangan biarkan satu pun 
+                                prestasi anda tidak diketahui oleh orang lain </p>
+                        </div>
+                        <div class="feature">
+                            <div class="feature-image">
+                                <img src="../img/ValidasiInput-page.png" alt="Validasi Input">
+                            </div>
+                            <h3>Validasi Input</h3>
+                            <p>Permudah proses validasi data prestasi mahasiswa! Fitur ini 
+                                memastikan setiap pencatatan prestasi yang diinput sudah akurat dan sesuai.</p>
+                        </div>
+                        <div class="feature">
+                            <div class="feature-image">
+                                <img src="../img/CetakPrestasi-page.png" alt="Cetak Prestasi">
+                            </div>
+                            <h3>Cetak Prestasi</h3>
+                            <p>Hasilkan laporan prestasi resmi dari data yang telah diinput 
+                                dan divalidasi! Laporan ini siap digunakan sebagai dokumentasi akademik</p>
+                        </div>
+                        </div>
+                    </section>
                 </div>
             </main>
         </div>
