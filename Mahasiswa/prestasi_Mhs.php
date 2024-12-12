@@ -126,6 +126,23 @@
                         </tr>
                     </tbody>
                 </table>
+                <div class="sub-header-pesan">
+                    <p><span>*pesan validasi dari admin</span></p>
+                </div>
+                <table>
+                    <thead>
+                        <tr>
+                            <th>NO</th>
+                            <th>PESAN</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>1</td>
+                            <td>Data nama yang dimasukkan salah</td>
+                        </tr>
+                    </tbody>
+                </table>
             </div>
         </div>
     </main>
