@@ -143,16 +143,6 @@
                                 <div class="note">Max 2 MB | File berupa format PDF / IMG</div>
                             </div>
                         </div>
-            
-                        <div class="validasi-input-form-group">
-                            <label for="point-sertifikat">Point Sertifikat</label>
-                            <input type="text" id="point-sertifikat" placeholder="Point Sertifikat">
-                        </div>
-                        <div class="validasi-input-form-group">
-                            <label for="pesan-validasi">Pesan Validasi</label>
-                            <textarea id="pesan-validasi" placeholder="Pesan Validasi"></textarea>
-                        </div>
-                        
                         <div class="validasi-input-form-actions">
                             <p>*Pastikan Data yang anda masukkan telah sesuai !</p>
                             <button type="reset" class="validasi-input-btn-batal" onclick="window.location.href='prestasi_Mhs.php'">Batal</button>

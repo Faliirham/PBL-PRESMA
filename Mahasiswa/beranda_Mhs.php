@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="../style/agenda.css">
     <link rel="stylesheet" href="../style/leaderboard.css">
     <link rel="stylesheet" href="../style/fitur.css">
+    <link rel="stylesheet" href="../style/faq.css">
 </head>
 <body>
     <div class="container">
@@ -169,6 +170,7 @@
                             <h3>Input Prestasi</h3>
                             <p>Catat setiap prestasi Anda dengan mudah! Jangan biarkan satu pun 
                                 prestasi anda tidak diketahui oleh orang lain </p>
+                        </a>
                         </div>
                         <div class="feature">
                         <a href="printPrestasi_Mhs.php">
@@ -178,9 +180,32 @@
                             <h3>Cetak Prestasi</h3>
                             <p>Hasilkan laporan prestasi resmi dari data yang telah diinput 
                                 dan divalidasi! Laporan ini siap digunakan sebagai dokumentasi akademik</p>
+                        </a>
                         </div>
                         </div>
                     </section>
+                    <div class="faq-content">
+                        <div class="faq-container">
+                            <h1>Pertanyaan Tentang SIPPMA</h1>
+                            <div class="faq-item">
+                                <button onclick="toggleAnswer(this)">Apa itu Sistem Pencatatan Prestasi Mahasiswa?</button>
+                                <div class="answer">SIPPMA adalah sistem yang digunakan untuk mencatat semua prestasi mahasiswa secara terpusat.</div>
+                            </div>
+                            <div class="faq-item">
+                                <button onclick="toggleAnswer(this)">Bagaimana alur pencatatan prestasi mahasiswa?</button>
+                                <div class="answer">Mahasiswa mengisi data prestasi di portal SIPPMA, diverifikasi oleh admin, dan diarsipkan.</div>
+                            </div>
+                            <div class="faq-item">
+                                <button onclick="toggleAnswer(this)">Bagaimana cara menjadi leaderboard?</button>
+                                <div class="answer">Mahasiswa dengan jumlah poin prestasi terbanyak akan masuk leaderboard.</div>
+                            </div>
+                            <div class="faq-item">
+                                <button onclick="toggleAnswer(this)">Cetak Prestasi Berfungsi untuk apa?</button>
+                                <div class="answer">Fitur ini digunakan untuk mencetak bukti prestasi yang dapat digunakan untuk keperluan administratif.</div>
+                            </div>
+                            <script src="js/faq.js" ></script>
+                        </div>
+                    </div>
                 </div>
             </main>
         </div>

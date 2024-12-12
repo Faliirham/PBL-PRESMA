@@ -7,34 +7,9 @@
     <link rel="stylesheet" href="../style/printPrestasi.css">
     <title>SIPPMA</title>
     <link rel="icon" type="image/png" href="../img/logo_SIPPMA.png">
-    
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/html2pdf.js/0.9.3/html2pdf.bundle.min.js" ></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
-    <script src="js/af.min.js"></script>
-    <script type="text/javascript">
-    $(document).ready(function($) 
-    { 
-        $(document).on('click', '.btn_print', function(event) 
-        {
-            event.preventDefault();
-
-            // Pilih elemen yang akan dicetak
-            var element = document.getElementById('file'); 
-
-            // Pengaturan custom untuk pdf
-            var opt = {
-                margin:       0,
-                filename:     'SIPPMA_'+js.AutoCode()+'.pdf',
-                image:        { type: 'jpeg', quality: 0.8},
-                html2canvas:  { dpi: 300, scale: 1},
-                jsPDF:        { unit: 'in', format: 'letter', orientation: 'portrait' }
-            };
-
-            // Menggunakan html2pdf untuk menyimpan PDF
-            html2pdf().set(opt).from(element).save();
-        });
-    });
-</script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/html2pdf.js/0.9.3/html2pdf.bundle.min.js" ></script>
+    <script src="js/print.js"></script>
 
 </head>
 <div class="container">
