@@ -226,7 +226,7 @@
                                         </div>
                                         <div class="input-user-form-group">
                                             <label for="role">Role</label>
-                                            <<label>
+                                            <label>
                                                 <input type="radio" name="role" value="mahasiswa"> 1. MAHASISWA
                                             </label>
                                             <label>
